@@ -2517,6 +2517,7 @@
             .chef .chef_div{
             	width: 100%;
             	margin-left: 0;
+                padding-left: 30px;
             }
             .chef .chef_div .chef_1{
             	width: 85%;
