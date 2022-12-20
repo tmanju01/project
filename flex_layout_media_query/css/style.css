@@ -5,7 +5,7 @@
 }
 body{
 	font-family: "Poppins", Arial, sans-serif;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
     
 }
 
@@ -14,7 +14,7 @@ body{
 	/*height: 657px;*/
 	height: auto;
 	width: 100%;
-	background: url(F://Manju_Github/Task/flex_layout_media_query/images/bg_1.jpg.webp);
+	background: url(F://Manju_Github/project/flex_layout_media_query/images/bg_1.jpg.webp);
 	background-size: 100% 100%;
      object-fit: cover;
 
@@ -721,7 +721,7 @@ body{
             margin-right: 9px;
              color: #c8a97e;
              text-decoration: none;
-             /*font-weight: normal;*/
+             
              font-size: 18px;
         }
        .chef .chef_div .chef_2{
@@ -752,7 +752,7 @@ body{
         /*height: 950px;*/
         /*height: auto;*/
         width: 100%;
-        background: url(F:/Manju_Github/Task/flex_layout_media_query/images/bg_3.jpg.webp);
+        background: url(F:/Manju_Github/project/flex_layout_media_query/images/bg_3.jpg.webp);
         background-size: 100% 100%;
         /*-webkit-background-clip: text;*/
         background-attachment: fixed;
