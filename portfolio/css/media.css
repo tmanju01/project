@@ -1,0 +1,1130 @@
+@media (max-width:1090px){
+  .infro{
+    display: none;
+}
+.container{
+    width:100%;
+}
+.container .background_pic{
+    object-fit: cover;
+    position: relative;
+}
+.background_pic h1{
+    position: absolute;
+    top: 380px;
+    left: 430px;
+   
+  }
+  .background_pic h2{
+    position: absolute;
+    top: 420px;
+    left: 450px;
+   
+  }
+  .background_pic .fa-bars{
+    display: block;
+  }
+  .about{
+    height: auto;
+  }
+  .about .line{
+     margin-left: 490px;
+  }
+  .about .about_container {
+    height: auto;
+    width: 95%;
+  }
+  .about .about_container .about_pic{
+    width: 35%;
+  }
+  .about .about_container .about_pic .img_container{
+    margin-left: 65px;
+    margin-top: 50px;
+  }
+  .about .about_text{
+    width: 65%;
+    /* height: auto; */
+  }
+  .about_text .about_details{
+    height: auto;
+  }
+  .about .about_details .list_1{
+    width: 50%;
+  }
+  .about .about_details .list_2{
+    width: 50%;
+  }
+
+  .container_skills{
+    height: auto;
+  }
+  .container_skills .line{
+    margin-left: 490px;
+  
+  }
+  .container_skills .skills{
+    height: auto;
+    width: 75%;
+    margin-left: 120px;
+  }
+  .skills .skill_con1{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .skills .skill_con2{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .skills   .html_pic{
+    width: 20%;
+     }
+  .skills   .html_name{
+    width: 80%;
+     }
+  .skills .javascript   .html_pic{
+    width: 10%;
+     }
+  .skills  .javascript .html_name{
+    width: 90%;
+  }
+  .skills .react   .html_pic{
+    width: 10%;
+  }
+  .skills  .react .html_name{
+    width: 90%;
+  }
+  .skills .photoshop   .html_pic{
+    width: 10%;
+  }
+  .skills   .photoshop .html_name{
+    width: 90%;
+  }
+  .container_resume{
+    height: auto;
+  }
+  .container_resume .line{
+    margin-left: 490px;
+  
+  }
+  .container_resume .resume{
+    height: auto;
+    width: 70%;
+    margin-left: 150px;
+  }
+  .container_resume .resume .resume_1{
+    height: auto;
+    width: 100%;
+  }
+  .resume .resume_1 .std_10{
+    width: 50%;
+  }
+  .resume .resume_1 .bca{
+    width: 50%;
+  }
+  .container_resume .resume .resume_2{
+    height: auto;
+    width: 100%;
+
+  }
+  .resume .resume_2 .training{
+    height: auto;
+    margin-left: 0;
+    width: 100%;
+
+  }
+
+  .container_project{
+    height: auto;
+  }
+  .container_project .line{
+    margin-left: 490px;
+  
+  }
+  .container_project .project{
+    height: auto;
+    width: 75%;
+    margin-left: 120px;
+  }
+  .container_project .project .project_section1{
+    width: 100%;
+    height: auto;
+  }
+  
+  .project_section1 .project1{
+    width: 50%;
+  }
+  .project_section1 .project2{
+    width: 50%;
+  }
+  .container_project .project .project_section2{
+    width:100% ;
+    height: auto;
+  }
+  .project_section2 .project3{
+      width: 50%;
+  }
+  .project_section2 .project4{
+      width: 50%;
+  }
+  .project p{
+    margin-left: 100px;
+  }
+  .container_contact{
+    height: auto;
+  }
+  .container_contact .line{
+    margin-left: 490px;
+  
+  }
+  .container_contact .contact{
+    height: auto;
+    width: 75%;
+    margin-left: 120px;
+  }
+  .contact .contact_infro{
+    height: auto;
+    width: 40%;
+  }
+  .contact .contact_msg{
+    height: auto;
+    width: 60%;
+  }
+  .contact .contact_msg table{
+    width: 15%;
+    padding: 0;
+  margin: 5px;
+  }
+  tr td input{
+    width: 230px;
+  }
+  tr td .text{
+    width:460px;
+    padding: 10;
+  }
+  tr td textarea{
+    width:460px;
+    height: 130px;
+  }
+  tr td button{
+    margin-left: 150px;
+  }
+
+}
+
+
+
+
+
+
+@media (max-width:998px){
+  .infro{
+    display: none;
+}
+.container{
+    width:100%;
+}
+.container .background_pic{
+    object-fit: cover;
+    position: relative;
+}
+.background_pic h1{
+    position: absolute;
+    top: 380px;
+    left: 410px;
+   
+  }
+  .background_pic h2{
+    position: absolute;
+    top: 420px;
+    left: 430px;
+   
+  }
+  .about{
+    height: auto;
+  }
+  .about .line{
+     margin-left: 460px;
+  }
+  .about .about_container {
+    height: auto;
+    width: 95%;
+  }
+  .about .about_container .about_pic{
+    width: 35%;
+  }
+  .about .about_container .about_pic .img_container{
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .about .about_text{
+    width: 65%;
+    /* height: auto; */
+  }
+  .about_text .about_details{
+    height: auto;
+  }
+  .about .about_details .list_1{
+    width: 50%;
+  }
+  .about .about_details .list_2{
+    width: 50%;
+  }
+
+  .container_skills{
+    height: auto;
+  }
+  .container_skills .line{
+    margin-left: 440px;
+  
+  }
+  .container_skills .skills{
+    height: auto;
+    width: 75%;
+    margin-left: 120px;
+  }
+  .skills .skill_con1{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .skills .skill_con2{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .skills   .html_pic{
+    width: 20%;
+     }
+  .skills   .html_name{
+    width: 80%;
+     }
+  .skills .javascript   .html_pic{
+    width: 10%;
+     }
+  .skills  .javascript .html_name{
+    width: 90%;
+  }
+  .skills .react   .html_pic{
+    width: 10%;
+  }
+  .skills  .react .html_name{
+    width: 90%;
+  }
+  .skills .photoshop   .html_pic{
+    width: 10%;
+  }
+  .skills   .photoshop .html_name{
+    width: 90%;
+  }
+  .container_resume{
+    height: auto;
+  }
+  .container_resume .line{
+    margin-left: 440px;
+  
+  }
+  .container_resume .resume{
+    height: auto;
+    width: 70%;
+    margin-left: 150px;
+  }
+  .container_resume .resume .resume_1{
+    height: auto;
+    width: 100%;
+  }
+  .resume .resume_1 .std_10{
+    width: 100%;
+  }
+  .resume .resume_1 .bca{
+    width: 100%;
+  }
+  .container_resume .resume .resume_2{
+    height: auto;
+    width: 100%;
+
+  }
+  .resume .resume_2 .training{
+    height: auto;
+    margin-left: 0;
+    width: 100%;
+
+  }
+
+  .container_project{
+    height: auto;
+  }
+  .container_project .line{
+    margin-left: 440px;
+  
+  }
+  .container_project .project{
+    height: auto;
+    width: 75%;
+    margin-left: 120px;
+  }
+  .container_project .project .project_section1{
+    width: 100%;
+    height: auto;
+  }
+  
+  .project_section1 .project1{
+    width: 50%;
+  }
+  .project_section1 .project2{
+    width: 50%;
+  }
+  .container_project .project .project_section2{
+    width:100% ;
+    height: auto;
+  }
+  .project_section2 .project3{
+      width: 50%;
+  }
+  .project_section2 .project4{
+      width: 50%;
+  }
+  .project p{
+    margin-left: 100px;
+  }
+  .container_contact{
+    height: auto;
+  }
+  .container_contact .line{
+    margin-left: 440px;
+  
+  }
+  .container_contact .contact{
+    height: auto;
+    width: 75%;
+    margin-left: 120px;
+  }
+  .contact .contact_infro{
+    height: auto;
+    width: 40%;
+  }
+  .contact .contact_msg{
+    height: auto;
+    width: 60%;
+  }
+  .contact .contact_msg table{
+    width: 15%;
+    padding: 0;
+  margin: 5px;
+  }
+  tr td input{
+    width: 210px;
+  }
+  tr td .text{
+    width:420px;
+    padding: 10;
+  }
+  tr td textarea{
+    width:420px;
+    height: 130px;
+  }
+  tr td button{
+    margin-left: 150px;
+  }
+
+}
+
+
+@media (max-width:857px){
+  .infro{
+    display: none;
+}
+.container{
+    width:100%;
+}
+.container .background_pic{
+    object-fit: cover;
+    position: relative;
+}
+.background_pic h1{
+    position: absolute;
+    top: 380px;
+    left: 350px;
+   
+  }
+  .background_pic h2{
+    position: absolute;
+    top: 420px;
+    left: 365px;
+   
+  }
+  .about{
+    height: auto;
+  }
+  .about .line{
+     margin-left: 380px;
+  }
+  .about .about_container {
+    height: auto;
+    width: 95%;
+  }
+  .about .about_container .about_pic{
+    width: 35%;
+  }
+  .about .about_container .about_pic .img_container{
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .about .about_text{
+    width: 65%;
+    /* height: auto; */
+  }
+  .about_text .about_details{
+    height: auto;
+  }
+  .about .about_details .list_1{
+    width: 50%;
+  }
+  .about .about_details .list_2{
+    width: 50%;
+  }
+
+  .container_skills{
+    height: auto;
+  }
+  .container_skills .line{
+    margin-left: 380px;
+  
+  }
+  .container_skills .skills{
+    height: auto;
+    width: 75%;
+    margin-left: 120px;
+  }
+  .skills .skill_con1{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .skills .skill_con2{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .skills   .html_pic{
+    width: 20%;
+     }
+  .skills   .html_name{
+    width: 80%;
+     }
+  .skills .javascript   .html_pic{
+    width: 10%;
+     }
+  .skills  .javascript .html_name{
+    width: 90%;
+  }
+  .skills .react   .html_pic{
+    width: 10%;
+  }
+  .skills  .react .html_name{
+    width: 90%;
+  }
+  .skills .photoshop   .html_pic{
+    width: 10%;
+  }
+  .skills   .photoshop .html_name{
+    width: 90%;
+  }
+  .container_resume{
+    height: auto;
+  }
+  .container_resume .line{
+    margin-left: 380px;
+  
+  }
+  .container_resume .resume{
+    height: auto;
+    width: 70%;
+    margin-left: 150px;
+  }
+  .container_resume .resume .resume_1{
+    height: auto;
+    width: 100%;
+  }
+  .resume .resume_1 .std_10{
+    width: 100%;
+  }
+  .resume .resume_1 .bca{
+    width: 100%;
+  }
+  .container_resume .resume .resume_2{
+    height: auto;
+    width: 100%;
+
+  }
+  .resume .resume_2 .training{
+    height: auto;
+    margin-left: 0;
+    width: 100%;
+
+  }
+
+  .container_project{
+    height: auto;
+  }
+  .container_project .line{
+    margin-left: 380px;
+  
+  }
+  .container_project .project{
+    height: auto;
+    width: 75%;
+    margin-left: 120px;
+  }
+  .container_project .project .project_section1{
+    width: 100%;
+    height: auto;
+  }
+  /* .contact .contact_infro  .logo i{
+    
+    padding: 15px;
+    background: gray;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 25px;
+
+  } */
+  .project_section1 .project1{
+    width: 100%;
+  }
+  .project_section1 .project2{
+    width: 100%;
+  }
+  .container_project .project .project_section2{
+    width:100% ;
+    height: auto;
+  }
+  .project_section2 .project3{
+      width: 100%;
+  }
+  .project_section2 .project4{
+      width: 100%;
+  }
+  .project p{
+    margin-left: 230px;
+  }
+  .container_contact{
+    height: auto;
+  }
+  .container_contact .line{
+    margin-left: 380px;
+  
+  }
+  .container_contact .contact{
+    height: auto;
+    width: 75%;
+  }
+  .contact .contact_infro{
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .contact .contact_msg{
+    height: auto;
+    width: 100%;
+  }
+  .contact .contact_msg table{
+    width: 30%;
+    padding: 0;
+  margin: 5px;
+  }
+  tr td input{
+    width: 305px;
+  }
+  tr td .text{
+    width:610px;
+    padding: 10;
+  }
+  tr td textarea{
+    width:610px;
+    height: 130px;
+  }
+  tr td button{
+    margin-left: 250px;
+  }
+
+
+}
+@media (max-width:730px){
+  .background_pic h1{
+    position: absolute;
+    top: 350px;
+    left: 250px;
+   
+  }
+  .background_pic h2{
+    position: absolute;
+    top: 390px;
+    left: 265px;
+   
+  }
+  .about .line{
+    margin-left: 330px;
+ }
+ .container_skills .line{
+  margin-left: 330px;
+ }
+ .container_resume .line{
+  margin-left: 330px;
+ }
+ .container_project .line{
+  margin-left: 330px;
+ }
+ .container_contact .line{
+  margin-left: 330px;
+ }
+  .contact .contact_msg{
+    height: auto;
+    width: 100%;
+  }
+  .contact .contact_msg table{
+    width: 30%;
+    padding: 0;
+  margin: 5px;
+  }
+  tr td input{
+    width: 260px;
+  }
+  tr td .text{
+    width:520px;
+    padding: 10;
+  }
+  tr td textarea{
+    width:520px;
+    height: 130px;
+  }
+  tr td button{
+    margin-left: 200px;
+  }
+
+
+}
+
+@media (max-width:698px){
+  .infro{
+    display: none;
+}
+.container{
+    width:100%;
+}
+.container .background_pic{
+    object-fit: cover;
+    position: relative;
+}
+.background_pic h1{
+    position: absolute;
+    top: 380px;
+    left: 250px;
+   
+  }
+  .background_pic h2{
+    position: absolute;
+    top: 420px;
+    left: 265px;
+   
+  }
+  .about{
+    height: auto;
+  }
+  .about .line{
+     margin-left: 300px;
+  }
+  .about .about_container {
+    height: auto;
+    width: 85%;
+  }
+  .about .about_container .about_pic{
+    width: 100%;
+  }
+  .about .about_container .about_pic .img_container{
+    margin-left: 180px;
+    margin-top: 50px;
+  
+  }
+  .about .about_text{
+    width: 100%;
+    height: auto;
+  }
+  .about_text .about_details{
+    height: auto;
+  }
+  .about .about_details .list_1{
+    width: 100%;
+  }
+  .about .about_details .list_2{
+    width: 100%;
+  }
+
+  .container_skills{
+    height: auto;
+  }
+  .container_skills .line{
+    margin-left: 300px;
+  
+  }
+  .container_skills .skills{
+    height: auto;
+    width: 75%;
+    margin-left: 100px;
+  }
+  .skills .skill_con1{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .skills .skill_con2{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .skills   .html_pic{
+    width: 20%;
+     }
+  .skills   .html_name{
+    width: 80%;
+     }
+  .skills .javascript   .html_pic{
+    width: 10%;
+     }
+  .skills  .javascript .html_name{
+    width: 90%;
+  }
+  .skills .react   .html_pic{
+    width: 10%;
+  }
+  .skills  .react .html_name{
+    width: 90%;
+  }
+  .skills .photoshop   .html_pic{
+    width: 10%;
+  }
+  .skills   .photoshop .html_name{
+    width: 90%;
+  }
+  .container_resume{
+    height: auto;
+  }
+  .container_resume .line{
+    margin-left: 300px;
+  
+  }
+  .container_resume .resume{
+    height: auto;
+    width: 70%;
+    margin-left: 110px;
+  }
+  .container_resume .resume .resume_1{
+    height: auto;
+    width: 100%;
+  }
+  .resume .resume_1 .std_10{
+    width: 100%;
+  }
+  .resume .resume_1 .bca{
+    width: 100%;
+  }
+  .container_resume .resume .resume_2{
+    height: auto;
+    width: 100%;
+
+  }
+  .resume .resume_2 .training{
+    height: auto;
+    margin-left: 0;
+    width: 100%;
+
+  }
+
+  .container_project{
+    height: auto;
+  }
+  .container_project .line{
+    margin-left: 300px;
+  
+  }
+  .container_project .project{
+    height: auto;
+    width: 75%;
+    margin-left: 100px;
+  }
+  .container_project .project .project_section1{
+    width: 100%;
+    height: auto;
+  }
+  .project_section1 .project1{
+    width: 100%;
+  }
+  .project_section1 .project2{
+    width: 100%;
+  }
+  .container_project .project .project_section2{
+    width:100% ;
+    height: auto;
+  }
+  .project_section2 .project3{
+      width: 100%;
+  }
+  .project_section2 .project4{
+      width: 100%;
+  }
+  .project p{
+    margin-left: 170px;
+  }
+  .container_contact{
+    height: auto;
+  }
+  .container_contact .line{
+    margin-left: 300px;
+  
+  }
+  .container_contact .contact{
+    height: auto;
+    width: 75%;
+    margin-left: 100px;
+  }
+  .contact .contact_infro{
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .contact .contact_msg{
+    height: auto;
+    width: 100%;
+  }
+  .contact .contact_msg table{
+    width: 30%;
+    padding: 0;
+  margin: 5px;
+  }
+  tr td input{
+    width: 240px;
+  }
+  tr td .text{
+    width:480px;
+    padding: 10;
+  }
+  tr td textarea{
+    width:480px;
+    height: 130px;
+  }
+  tr td button{
+    margin-left: 170px;
+  }
+
+}
+
+
+
+@media (max-width:500px)
+{
+    .infro{
+        display: none;
+    }
+    .container{
+        width:100%;
+    }
+    .container .background_pic{
+        object-fit: cover;
+        position: relative;
+    }
+    .background_pic h1{
+        position: absolute;
+        top: 380px;
+        left: 150px;
+       
+      }
+      .background_pic h2{
+        position: absolute;
+        top: 430px;
+        left: 160px;
+       
+      }
+      .about{
+        height: auto;
+      }
+      .about .line{
+         margin-left: 200px;
+      }
+      .about .about_container {
+        height: auto;
+        width: 85%;
+      }
+      .about .about_container .about_pic{
+        width: 100%;
+      }
+      .about .about_container .about_pic .img_container{
+        margin-left: 80px;
+        margin-top: 50px;
+      }
+      .about .about_text{
+        width: 100%;
+        height: auto;
+      }
+      .about_text .about_details{
+        height: auto;
+      }
+      .about .about_details .list_1{
+        width: 100%;
+      }
+      .about .about_details .list_2{
+        width: 100%;
+      }
+
+      .container_skills{
+        height: auto;
+      }
+      .container_skills .line{
+        margin-left: 190px;
+      
+      }
+      .container_skills .skills{
+        height: auto;
+        width: 75%;
+        margin-left: 60px;
+      }
+      .skills .skill_con1{
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .skills .skill_con2{
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .skills   .html_pic{
+        width: 40%;
+         }
+      .skills   .html_name{
+        width: 60%;
+         }
+      .skills .javascript   .html_pic{
+        width: 20%;
+         }
+      .skills  .javascript .html_name{
+        width: 80%;
+      }
+      .skills .react   .html_pic{
+        width: 20%;
+      }
+      .skills  .react .html_name{
+        width: 80%;
+      }
+      .skills .photoshop   .html_pic{
+        width: 20%;
+      }
+      .skills   .photoshop .html_name{
+        width: 80%;
+      }
+      .container_resume{
+        height: auto;
+      }
+      .container_resume .line{
+        margin-left: 190px;
+      
+      }
+      .container_resume .resume{
+        height: auto;
+        width: 70%;
+        margin-left: 80px;
+      }
+      .container_resume .resume .resume_1{
+        height: auto;
+        width: 100%;
+      }
+      .resume .resume_1 .std_10{
+        width: 100%;
+      }
+      .resume .resume_1 .bca{
+        width: 100%;
+      }
+      .container_resume .resume .resume_2{
+        height: auto;
+        width: 100%;
+
+      }
+      .resume .resume_2 .training{
+        height: auto;
+        margin-left: 0;
+        width: 100%;
+
+      }
+
+      .container_project{
+        height: auto;
+      }
+      .container_project .line{
+        margin-left: 190px;
+      
+      }
+      .container_project .project{
+        height: auto;
+        width: 75%;
+        margin-left: 60px;
+      }
+      .container_project .project .project_section1{
+        width: 100%;
+        height: auto;
+      }
+      .project_section1 .project1{
+        width: 100%;
+      }
+      .project_section1 .project2{
+        width: 100%;
+      }
+      .container_project .project .project_section2{
+        width:100% ;
+        height: auto;
+      }
+      .project_section2 .project3{
+          width: 100%;
+      }
+      .project_section2 .project4{
+          width: 100%;
+      }
+      .project p{
+        margin-left: 100px;
+      }
+      .container_contact{
+        height: auto;
+      }
+      .container_contact .line{
+        margin-left: 190px;
+      
+      }
+      .container_contact .contact{
+        height: auto;
+        width: 75%;
+        margin-left: 70px;
+      }
+      .contact .contact_infro{
+        height: auto;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .contact .contact_infro  .logo i{       
+        margin-left: 10px;    
+      }
+      .contact .contact_msg{
+        height: auto;
+        width: 100%;
+      }
+      .contact .contact_msg table{
+        width: 30%;
+        padding: 0;
+      margin: 5px;
+      }
+      tr td input{
+        width: 170px;
+      }
+      tr td .text{
+        width:345px;
+        padding: 10;
+      }
+      tr td textarea{
+        width:345px;
+        height: 130px;
+      }
+      tr td button{
+        margin-left: 120px;
+      }
+
+      
+}
