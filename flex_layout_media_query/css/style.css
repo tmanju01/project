@@ -14,11 +14,11 @@ body{
 
 .main
 {
-	/*height: 657px;*/
+	/* height: 657px; */
 	height: auto;
 	width: 100%;
-	/* background: url(F://Manju_Github/project/flex_layout_media_query/images/bg_1.jpg.webp); */
-  background-image: url("/images/bg_1.jpg.webp"); 
+  background-image: url('../images/bg_1.jpg.webp'); 
+  
 	/* background-size: cover; */
   background-size: 100% 100%;
      object-fit: cover;
@@ -35,11 +35,15 @@ body{
 	line-height: 35px;
 	font-size: 14px;
 	color:#eeeeee9e;
+
+  /* display: none; */
 }
 .header_up .call{
 	height: 40px;
 	width: 30%;
 	/*background: white;*/
+
+ 
 }
 .header_up i{
 	margin-right: 5px;
@@ -67,33 +71,39 @@ body{
  	border-bottom: 1px solid #9e9e9e7d;
  	/* position: relative; */
   z-index: 5;
+  display: flex;
     position: fixed;
-                top:0;
-                /*left: 0;*/
+                top:40px;
+                left: 0;
+                transition: .6s;
 
 
 
  }
  
  
- .nav .checkbtn{
- 	      float: right;
+  .checkbtn{
+ 	      /* float: right;
   			margin-right: 20px;
 			line-height: 90px;
 			font-size: 20px;
-			/*color: white;*/
-			color: rgba(255, 255, 255, 0.5);
+			
+			color: rgba(255, 255, 255, 0.5); */
 			display: none;
  }
- .nav .checkbtn i{
+ /* .nav .checkbtn i{
    margin-right: 10px;
 
  }
  .nav .checkbtn span{
  	line-height: 20px;
  	font-size: 20px;
- }
-
+ } */
+  .nav .logo{
+    height: 100px;
+    width: 50%;
+    background:transparent;
+  }
  .nav .logo a{
 			color: white;
 			line-height: 95px;
@@ -101,32 +111,54 @@ body{
             font-weight: 900;
 			text-decoration: none;
 			padding: 0 150px;
+      transition: .4s;
 			/*position: fixed;*/
 		}
-	.nav	ul{
-			float: right;
-			line-height: 90px;
+     .head_menu{
+      height: 100px;
+      width: 50%;
+      background: transparent;
+    }
+	 .head_menu	ul{
+    
+      transition: .4s; 
+     
+      line-height: 100px
+
 		}
-		 .nav ul li{
+		 .head_menu ul li{
 			display: inline-block;
+      margin-left: 5px;
+
 		}
-	.nav	ul li a{
+	.head_menu	ul li a{
 			text-decoration: none;
 			font-size: 15px;
-			line-height: 60px;
-			margin-right: 25px;
+			/* line-height: 100px */
+      /* line-height: 30px; */
+			margin-right: 10px;
 			color: white;
+      padding: 5px ;
+      margin-left: 10px;
+      
 		}
+    .head_menu	ul li a:hover{
+      background: white;
+      color: black;
+      border-radius: 20px;
+      padding: 5px 10px;
+      /* margin: 5px; */
+    }
  
  	
- .nav ul .home a{
+ .head_menu ul .home a{
  	color:#ff8000;
  }
-   .nav ul .home a:hover{
- 	color: whitesmoke;
+   .head_menu ul .home a:hover{
+ 	color: black;
  }
  
- .nav ul span{
+ .head_menu ul span{
  	/*height: 50px;*/
  	/*width: 10px;*/
     background: #c8a97e;
@@ -134,7 +166,13 @@ body{
  	border-radius: 10px;
  	margin-right: 40px;
  	margin-top: 5px;
+   transition: .4s;
  	
+ }
+ .head_menu ul span:hover{
+  background:white ;
+  border-radius: 20px;
+  padding:20px 15px;
  }
       /*nav end*/
 
@@ -152,6 +190,7 @@ body{
     border-bottom: 1px solid #9e9e9e7d;
     position: relative;
         }
+
         .text span{
         	display: block;
         	font-size: 100px;
@@ -635,6 +674,10 @@ body{
       } 
       .menu .menu_images .pic img{
         object-fit: cover;
+        
+      }
+      .menu .menu_images .pic img:hover{
+        transform: scale(0.95);
       }
         .menu .menu_images .menu_div2 .menu3{
       	height: 225px;
@@ -717,6 +760,11 @@ body{
        .chef .chef_div img{
         border-radius: 10px;
         /*object-fit: cover;*/
+        
+       }
+       .chef .chef_div img:hover{
+        transform: scale(0.95);
+
        }
        .chef .chef_div h3{
         font-size: 20px;
@@ -763,8 +811,9 @@ body{
         /*height: 950px;*/
         /*height: auto;*/
         width: 100%;
-        /* background: url(F:/Manju_Github/project/flex_layout_media_query/images/bg_3.jpg.webp); */
-        background-image: url("/images/bg_3.jpg.webp"); 
+        
+        /* background-image: url("/images/bg_3.jpg.webp");  */
+        background-image: url('../images/bg_3.jpg.webp');
         background-size: 100% 100%;
         /*-webkit-background-clip: text;*/
         background-attachment: fixed;
@@ -1001,6 +1050,10 @@ body{
         /*border: 1px solid;*/
       margin: 13px;
         /*padding:5px 10px;*/
+       }
+       .blog .blog_div img:hover{
+        transform: scale(0.95);
+
        }
        .blog .blog_div  .link {
         margin: 15px 25px ;
