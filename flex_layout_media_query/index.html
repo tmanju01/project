@@ -15,7 +15,7 @@
 
 
 </head>
-<body>   
+<body  onscroll="scrollPage()">   
 
 <div class="main">
 	<!-- header up start -->
@@ -36,24 +36,25 @@
 	<!-- header up end -->
 
 	<!-- nav start -->
-	<div class="nav sticky">
-		<label  class="checkbtn">
+	<div class="nav " id="nav">
+		<div  class="checkbtn">
 			<i class="fa fa-bars" aria-hidden="true"></i>
-			<span>menu</span>
-		</label>
-		<!-- <div class="logo"> -->
-		<label class="logo"><a href=""> Feliciano</a></label>
-		<!-- </div> -->
-		<!-- <div class="menu"> -->
-			<ul>
-				<li class="home"><a href="">Home</a></li>
-				<li><a href="">About</a></li>
+			<div class="span">menu</div>
+		</div>
+		<div class="logo"  id="logo_div">
+		<label><a href="" id="label"> Feliciano</a></label>
+		</div>
+		<div class="head_menu"  id="menu_div">                                   
+			<ul id="ul">
+				<li><a href="" class="active">Home</a></li>
+				<li><a href="">About</a></li>           
 				<li><a href="">Menu</a></li>
 				<li><a href="">Stories</a></li>
 				<li><a href="">Contact</a></li>
-				<li><span><a href="">Book a table</a></span></li>
+				<li><span id="btn"><a href="">Book a table</a></span></li>
 			</ul>
-		<!-- </div> -->
+			
+		</div>
 	</div>
 	<!-- nav end -->
 
@@ -671,6 +672,56 @@
      <!-- footer section end -->
 
 
+<script>
+	header_div =  document.getElementById('nav');
+	label_div=document.getElementById('label');
+	ul_tag=document.getElementById('ul');
+    span_tag=document.getElementById('btn');
+
+	logotag=document.getElementById('logo_div');
+	menutag=document.getElementById('menu_div');
+    //   div_tag = document.querySelector('checkbtn');
+ 	//  navbar= document.querySelector('head_menu');
+ 	//  header_tag= document.querySelector('nav');
+    function scrollPage()
+    {
+        if(document.documentElement.scrollTop>70)
+		{
+        	header_div.style.top = "0";
+			header_div.style.height=" 70px";
+			logotag.style.top="0";
+			logotag.style.height="70px";
+			menutag.style.top="0";
+			menutag.style.height="70px";
+
+			label_div.style.lineHeight="70px";
+			ul_tag.style.lineHeight="70px";
+			span_tag.style.padding="10px 10px"
+			
+        }
+         else
+         {
+         	 header_div.style.top = "40px";
+			  header_div.style.height=" 100px";
+			  label_div.style.lineHeight="95px";
+			  ul_tag.style.lineHeight="90px";
+			  span_tag.style.padding="20px 15px"
+         }
+
+		 
+   
+    }
+
+	
+
+	// checkbtn =document.querySelector('.checkbtn');
+	// checkbtn.onclick = function (){
+	// 	navBar = document.querySelector('.head_menu');
+	// 	navBar.classList.toggle('active');
+	// }
+	
+
+</script>
 
 
 
