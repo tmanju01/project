@@ -1,6 +1,4 @@
-@media (max-width:1366px){
 
-}
 
 @media (max-width: 1133px){
 	.footer .footer_part .part_2 .time ul li .s2
@@ -27,12 +25,29 @@
 				display: block;
 				line-height: 60px;
 				text-transform: uppercase;
+				/* position: relative; */
+				position: absolute;
+				top: 10%;
+			    right: 7%;
+			}
+			.nav .checkbtn i{
+              
+				position: absolute;
+				top: 20px;
+			    right: 10px;
+			}
+
+			 .nav .checkbtn .span{
+				position: absolute;
+				top: 5%;
+				left: 2%;
+
 			}
 
 			.nav
 			{
 				height: 60px;
-				background: black;
+				/* background: black; */
 				border: none;
 			}
 
@@ -95,11 +110,11 @@
              }
 
 
-             /* .reservetion_form  table{
-             	margin-left: 70px;
+             .reservetion_form  table{
+             	/*margin-left: 70px;*/
              
              	
-             } */
+             }
              .reservetion_form  table input{
              	width: 100%;
              }
@@ -117,7 +132,7 @@
 
 
 @media (max-width: 996px){
-	
+
 	        .footer
 	        {
      	         height: auto;
@@ -569,11 +584,11 @@
              }
 
 
-             /* .reservetion_form  table{
-             	margin-left: 70px;
+             .reservetion_form  table{
+             	/*margin-left: 70px;*/
              
              	
-             } */
+             }
              .reservetion_form  table input{
              	width: 100%;
              }
@@ -822,11 +837,11 @@
              }
 
 
-             /* .reservetion_form  table{
-             	margin-left: 70px;
+             .reservetion_form  table{
+             	/*margin-left: 70px;*/
              
              	
-             } */
+             }
              .reservetion_form  table input{
              	width: 190%;
              }
@@ -1153,11 +1168,11 @@
              }
 
 
-             /* .reservetion_form  table{
-             	margin-left: 70px;
+             .reservetion_form  table{
+             	/*margin-left: 70px;*/
              
              	
-             } */
+             }
              .reservetion_form  table input{
              	width: 190%;
              }
@@ -1642,11 +1657,11 @@
              }
 
 
-             /* .reservetion_form  table{
-             	margin-left: 70px;
+             .reservetion_form  table{
+             	/*margin-left: 70px;*/
              
              	
-             } */
+             }
              .reservetion_form  table input{
              	width: 220%;
              }
@@ -1884,7 +1899,7 @@
                    .about .count .count_3{
    	height: 100px;
    	width: 100%;
-
+   	/
    	padding-left: 0;
    }
     .about .count .count_3 strong{
@@ -2172,11 +2187,11 @@
              }
 
 
-             /* .reservetion_form  table{
-             	margin-left: 70px;
+             .reservetion_form  table{
+             	/*margin-left: 70px;*/
              
              	
-             } */
+             }
              .reservetion_form  table input{
              	width: 190%;
              }
@@ -2211,7 +2226,6 @@
 				
 				background: black;
 				border: none;
-				
 
 			}
 			.nav .logo a{
@@ -2550,9 +2564,9 @@
              .reservetion_form span{left:20px ;}
              .reservetion_form h1{padding-left: 20px;font-size: 45px;}
 
-             /* .reservetion_form  table{
-             	margin-left: 70px;
-             } */
+             .reservetion_form  table{
+             	/*margin-left: 70px;*/
+             }
              table , tr,td{
              	display: block;
              	width: 100%;
@@ -2671,3 +2685,4 @@
      }
         	 
 }
+
