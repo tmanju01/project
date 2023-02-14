@@ -538,6 +538,8 @@ body{
       	padding: 15px;
       }
 
+      /* services section end */
+
       /*menu section start*/
 
       .menu{
@@ -903,7 +905,7 @@ body{
 
        /*background fixed end*/
 
-       /*customer section end*/
+       /*customer section start*/
        .customer_div{
         height: 850px;
         /*height: auto;*/
