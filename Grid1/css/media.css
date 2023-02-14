@@ -1,0 +1,16 @@
+@media (max-width:992px){
+    .nav{
+        /* display: none; */
+      
+    }
+    .header{
+        position: relative;
+    }
+    .chackbtn{
+        /* display: block; */
+        position: absolute;
+        top: 50px; 
+        right: 10px;
+        font-size: 20px;
+    }
+}
