@@ -1,4 +1,4 @@
-@media (max-width:1090px){
+/* @media (max-width:1090px){
   .infro{
     display: none;
 }
@@ -43,7 +43,6 @@
   }
   .about .about_text{
     width: 65%;
-    /* height: auto; */
   }
   .about_text .about_details{
     height: auto;
@@ -258,7 +257,7 @@
   }
   .about .about_text{
     width: 65%;
-    /* height: auto; */
+    
   }
   .about_text .about_details{
     height: auto;
@@ -469,7 +468,7 @@
   }
   .about .about_text{
     width: 65%;
-    /* height: auto; */
+    
   }
   .about_text .about_details{
     height: auto;
@@ -575,16 +574,7 @@
     width: 100%;
     height: auto;
   }
-  /* .contact .contact_infro  .logo i{
-    
-    padding: 15px;
-    background: gray;
-    border-radius: 50%;
-    margin-top: 5px;
-    margin-left: 50px;
-    font-size: 25px;
-
-  } */
+  
   .project_section1 .project1{
     width: 100%;
   }
@@ -910,11 +900,11 @@
     margin-left: 170px;
   }
 
-}
+} */
 
 
 
-@media (max-width:500px)
+@media (max-width:730px)
 {
     .infro{
         display: none;
@@ -929,20 +919,20 @@
     .background_pic h1{
         position: absolute;
         top: 380px;
-        left: 150px;
+        left: 230px;
        
       }
       .background_pic h2{
         position: absolute;
         top: 430px;
-        left: 160px;
+        left: 250px;
        
       }
       .about{
         height: auto;
       }
       .about .line{
-         margin-left: 200px;
+         margin-left: 290px;
       }
       .about .about_container {
         height: auto;
@@ -952,7 +942,7 @@
         width: 100%;
       }
       .about .about_container .about_pic .img_container{
-        margin-left: 80px;
+        margin-left: 160px;
         margin-top: 50px;
       }
       .about .about_text{
@@ -973,13 +963,13 @@
         height: auto;
       }
       .container_skills .line{
-        margin-left: 190px;
+        margin-left: 290px;
       
       }
       .container_skills .skills{
         height: auto;
         width: 75%;
-        margin-left: 60px;
+        margin-left: 85px;
       }
       .skills .skill_con1{
         width: 100%;
@@ -1017,13 +1007,13 @@
         height: auto;
       }
       .container_resume .line{
-        margin-left: 190px;
+        margin-left: 290px;
       
       }
       .container_resume .resume{
         height: auto;
         width: 70%;
-        margin-left: 80px;
+        margin-left: 100px;
       }
       .container_resume .resume .resume_1{
         height: auto;
@@ -1049,15 +1039,16 @@
 
       .container_project{
         height: auto;
+        margin-top: 50px;
       }
       .container_project .line{
-        margin-left: 190px;
+        margin-left: 290px;
       
       }
       .container_project .project{
         height: auto;
         width: 75%;
-        margin-left: 60px;
+        margin-left: 90px;
       }
       .container_project .project .project_section1{
         width: 100%;
@@ -1080,19 +1071,20 @@
           width: 100%;
       }
       .project p{
-        margin-left: 100px;
+        margin-left: 150px;
       }
       .container_contact{
         height: auto;
+        margin-top: 50px;
       }
       .container_contact .line{
-        margin-left: 190px;
+        margin-left: 290px;
       
       }
       .container_contact .contact{
         height: auto;
         width: 75%;
-        margin-left: 70px;
+        margin-left: 150px;
       }
       .contact .contact_infro{
         height: auto;
