@@ -1,0 +1,406 @@
+
+/* global section start */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Rubik', sans-serif;
+   font-size: 14px;
+}
+
+section{
+   padding: 85px 60px;
+}
+
+/* global section end */
+
+
+/* typyographi section start */
+h1{
+  font-size: 90px;
+  line-height: 87px;
+  margin-bottom: 15px;
+  color: #ffd7ad;
+  font-weight: 700;
+  
+}
+h2{
+   font-size: 53px;
+   line-height: 55px;
+   margin-bottom: 10px;
+   color: #55112e;
+   font-weight: 700;
+}
+h3{
+   font-size: 30px;
+   line-height: 40px;
+   margin-bottom: 15px;
+   color: #333;
+   font-weight: 700;
+}
+h4{
+  font-size: 15px;
+  line-height: 22px;
+  color: #3b8df3;
+  margin-bottom: 10px;
+}
+p{
+   font-size: 18px;
+   line-height: 30px;
+   color:#ffd7ad;
+   margin-bottom: 10px;
+}
+
+/* typyographi section end */
+
+
+
+/* header section start */
+
+.navbar{
+   background-color:#4a1831;
+}
+ .nav-item .nav-link{
+   color: #ffd7ad;
+   
+}
+.nav-item .nav-link:hover{
+   color: white;
+}
+.navbar-toggler{
+   color: white;
+}
+
+
+/* header section end */
+
+
+/* background img section start */
+.theme-bg{
+   background-image: url('../images/bg_1.png');
+   height: 600px;
+   background-size: 100% 100%;
+}
+button{
+   background-color: #ffd7ad;
+   border: none;
+   border-radius: 25px;
+}
+button a{
+   color: #4a1831;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 17px;
+}
+button a:hover{
+   color: brown;
+}
+/* background img section end */
+
+
+
+/* about section start */
+
+.about_us{
+   height: 360px;
+   background-color: #ffd7ad;
+}
+.about_us p{
+   color: #4a1831;
+}
+
+.about_us button{
+   background-color: #4a1831;
+   }
+.about_us button a{
+   color:  #ffd7ad;
+}
+.about_us button a:hover{
+   color: brown;
+}
+
+/* about section end */
+
+
+/* about image section start  */
+.image_section{
+   height: 340px;
+   background-image: url('../images/pic_1.png');
+   background-size: cover;
+   
+
+}
+/* about image section start */
+
+
+/* about part section start */
+.about_part{
+   height: 1280px;
+   background-color: #ffd7ad;
+}
+.about_container{
+   height: 650px;
+   /* background-color: #4a1831; */
+}
+.image{
+   height:600px ;
+   /* background-color: blueviolet; */
+   padding-left: 40px;
+   padding-top: 30px;
+}
+.text{
+   height:600px ;
+   /* background-color: blue; */
+   padding-top: 150px;
+   text-align: left;
+}
+.text p{
+   padding-right: 100px;
+   color: #4a1831;
+}
+.text button{
+   background-color: #4a1831;
+}
+.text button a{
+   color:  #ffd7ad;
+}
+.text button a:hover{
+   color: brown;
+}
+
+
+.discount_contant{
+   height: 630px;
+   background-color: #ffd7ad;
+   padding-top: 70px;
+   
+}
+.discount_image{
+   height:560px;
+   background-image: url('../images/pic_3.png');
+   background-size: 100% 100%;
+   margin-left: 300px;
+   position: relative;
+   
+}
+.discount_contant h1{
+   position: absolute;
+   top: 0;
+   left: -180px;
+   font-size: 130px;
+   color: #e63956;
+}
+.discount_contant h3{
+   position: absolute;
+   top: 140px;
+   left: -170px;
+   font-size: 64px;
+   color: #55112e;
+}
+.discount_contant h2{
+   position: absolute;
+   top: 200px;
+   left: -180px;
+   font-size: 104px;
+   color: #6cc5ac;
+}
+
+/* about part section end */
+
+
+
+/* offers section :start */
+
+.offers_contant{
+   height: 650px;
+   background-color: #55112e;
+   padding: 150px;
+}
+.offers_part_1{
+   height: 450px;
+   /* background-color: aqua; */
+   padding: 80px 0
+}
+.offers_part_1 h2{
+   font-size: 50px;
+   color: #ffd7ad;
+}
+.offers_part_2{
+   height: 450px;
+   /* background-color: #e63956; */
+}
+
+/* offers sections end */
+
+
+
+/* image text section start */
+.image_text{
+   height: 650px;
+   background-image:linear-gradient(#170f16c2,#170f16c2), url('../images/pic_5.png');
+   background-size: 100% 100%;
+   padding: 150px 0;
+}
+.image_contant p{
+   font-size: 25px;
+   color:#ffd7ad;
+}
+/* image text section end */
+
+
+
+/* latest offers section start */
+.latest_offers{
+   height: 600px;
+   background-color: #ffd7ad;
+   padding: 160px 0;
+}
+.latest_offers h2{
+   color: #4a1831;
+}
+.latest_offers p{
+   margin-bottom: 70px;
+   color: #4a1831;
+}
+span{
+   position: relative;
+   margin-top: 50px;
+   background-color: #e63956;
+}
+span input{
+   width: 500px;
+   height: 40px;
+   padding-left: 20px;
+   border-radius: 25px;
+   border: none;
+   outline: none;
+   padding-top:5px;
+   padding-bottom: 5px;
+}
+span button{
+   position: absolute;
+   top: -37px;
+   right: 0;
+   background-color: #4a1831;
+}
+   
+span button a{
+   color: #ffffff;
+}
+
+/* latest offers section end */
+
+
+/* footer section  start */
+
+.footer{
+   height:650px;
+   background-color: #4a1831;
+   padding-top: 150px;
+   color: #ffd7ad;
+   
+}
+.footer_contant{
+   height: 350px;
+   /* background-color: #e63956; */
+  
+}
+.mariachi{
+   height:350px;
+   /* background-color: hotpink; */
+   padding-top: 20px;
+}
+.footer h4{
+   font-size: 25px;
+   color: #ffd7ad;
+
+}
+.footer p{
+   margin-top: 30px;
+   color: #ffd7ad;
+}
+
+.mariachi ul{
+
+   /* background-color: blueviolet; */
+   padding: 0;
+   margin-top: 40px;
+}
+.mariachi ul li{
+   list-style: none;
+   display: inline-block;
+   margin-right: 5px;
+}
+.mariachi ul li a{
+   text-decoration: none;
+   font-size: 16px;
+   background-color: #4a1831;
+   color:#4a1831;
+   background-color: #ffd7ad;
+   padding: 9px 12px;
+   border-radius: 50%;
+}
+.about{
+   height: 350px;
+   /* background-color: blue; */
+   padding-top: 20px;
+}
+.about ul{
+   list-style: none;
+   padding-left: 0;
+   margin-top: 25px;
+}
+.about ul li{
+   font-size: 17px;
+   line-height: 30px;
+   color: #ffd7ad;
+  
+}
+.services{
+   height: 350px;
+   /* background-color: blueviolet; */
+   padding-top: 20px;
+}
+.services ul{
+   list-style: none;
+   padding-left: 0;
+   margin-top: 25px;
+}
+.services ul li{
+   font-size: 17px;
+   line-height: 30px;
+  
+}
+.other{
+   height: 350px;
+   /* background-color: green; */
+   padding-top: 20px;
+}
+.other ul{
+   list-style: none;
+   padding-left: 0;
+   margin-top: 25px;
+}
+.other ul li{
+   font-size: 17px;
+   line-height: 30px;
+  
+}
+/* footer section end */
+
+
+
+
+
+
+
+
+
+
+
+
