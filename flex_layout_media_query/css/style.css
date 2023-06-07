@@ -118,6 +118,7 @@ body{
       height: 100px;
       width: 50%;
       background: transparent;
+      /* float: right; */
     }
 	 .head_menu	ul{
     
