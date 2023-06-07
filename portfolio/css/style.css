@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .main{
@@ -26,7 +26,7 @@ body{
  .infro .infro_part1{
    height: 270px;
    width: 100%;
-   /*background: olive;*/
+   /* background: olive; */
    padding-top: 10px;
 
 }
@@ -62,7 +62,7 @@ body{
   .infro  .infro_part1 .socialmedia_icon{
   	height: 70px;
   	width: 80%;
-  	/*background: blue;*/
+  	/* background: blue; */
   	margin-left: 30px;
   	margin-top: 10px;
   	padding-top: 25px;
@@ -91,11 +91,11 @@ body{
   .infro .infro_part2{
    height: 385px;
    width: 100%;
-   /*background: violet;*/
+   /* background: violet; */
    padding-top: 5px;
 }
   .infro_part2 ul{
-  	/*background: green;*/
+  	/* background: green; */
   	width: 50%;
   	margin-left: 40px;
 
@@ -142,8 +142,10 @@ body{
 .container .background_pic{
 	height: 655px;
 	width: 100%;
-  background: url(F://Manju_Github/project/portfolio/images/background_img_1.jpg);
-   background-size: 100% 100%;
+  /* background:url(F://Manju_Github/project/portfolio/images/background_img_1.jpg); */
+  background-image:  url('../images/background_img_1.jpg');
+  background-size: 100% 100%;
+  object-fit: cover;
    position: relative;
 }
 .background_pic h1{
@@ -211,7 +213,7 @@ text-align: center;
 .about .about_container .about_pic .img_container{
   height: 250px;
   width: 250px;
-  /* background: white; */
+  background: white;
   margin-left: 30px;
  
 }
@@ -237,7 +239,7 @@ text-align: center;
 .about_text .about_details{
   height: 180px;
   width: 95%;
-  /* background: white; */
+  background: white;
   margin-left: 15px;
   display: flex;
   flex-wrap: wrap;
@@ -279,7 +281,7 @@ margin-left: 2px;
 .container_skills{
   height: 450px;
   width: 100%;
-  background: white;
+  /* background: white; */
   padding-top: 20px;
 }
 .container_skills h1{
@@ -623,9 +625,10 @@ text-align: center;
   margin-top: 50px;
   margin-left: 80px;
 }
+
 .container_project .project .project_section1{
   height: 300px;
-  width: 100%;
+  width: 100%;  
   /* background: blue; */
   display: flex;
   flex-wrap: wrap;
