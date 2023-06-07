@@ -1,16 +1,745 @@
 @media (max-width:992px){
-    .nav{
-        /* display: none; */
-      
+    
+      /* header section start */
+    .logo{
+        padding-left: 10px;
     }
-    .header{
-        position: relative;
+    /* header section end */
+
+    /* text section start */
+
+    
+
+    .text{
+        padding-left: 20px;
     }
-    .chackbtn{
-        /* display: block; */
-        position: absolute;
-        top: 50px; 
-        right: 10px;
+    /* text section end */
+
+    /* about section start */
+    .about .contant{
+        padding-left: 0;
+    }
+    .contant .contant_pic{
+        padding-left:0;
+    }
+    .contant .contant_pic img{
+        left: 10px;
+        width:98% ;
+    }
+    .contant .contant_text{
+        padding-left: 30px;
+        padding-right: 13px; 
+    }
+    .contant_text .btn2{
+        padding: 20px 15px;
+    }
+    /* about section end */
+
+    /* Categories section start */
+    .categories h1{
+        padding-left: 170px;
+        padding-right: 180px;
+        padding-bottom: 40px;
+    }
+
+    .categories .contant_categori{
+        padding: 0 10px;
+    }
+    .icon .i1{
+        left:95px 
+    }
+    .icon .flower1{
+        left: 60px;
+    }
+    .icon .flower2{
+        left: 130px;
+    }
+    .message .line{
+        margin-left: 80px;
+    }
+    /* Categories section end */
+
+
+    /* Best Beauty Salon Center section start */
+    .center p{
+        padding-left: 18%;
+    }
+    .center button{
+        margin-left: 35%;
+    }
+
+    /* Best Beauty Salon Center section end */
+
+    /* services section start */
+    
+    .services .services_contant{
+        grid-template-columns: 3.1fr 3.1fr;
+    }
+    .services_contant .part1{
+        margin-left: 10px; 
+        margin-right: 120px;
+    }
+    .part1 .a  .msg p{
+        text-align: end;
+        line-height: 35px;
+    }
+    .part2{
+        margin-left: 140px;
+        margin-right: 10px;
+    }
+    /* services section end */
+
+    /* Review section start */
+
+    .review span{
         font-size: 20px;
     }
+    .review .count{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .review .count .count1{
+        
+        padding: 50px 25px;
+    }
+    /* Review section end */
+  
+    /* Artist section start */
+    .artist{
+         /* padding-top: 120px; */
+         padding: 120px 10px 140px 10px;
+    }
+    .artist h2{
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-bottom: 80px;
+    }
+    .staff_text{
+        padding-top: 30px;
+    }
+    .staff_text h4{
+        margin-top: 5px;
+    }
+    /* Artist section end */
+
+    /* Package section start */
+    .package{
+        padding: 120px 0 120px 0;
+    }
+    .package h1{
+        padding-left: 240px;
+        padding-right: 240px;
+        padding-bottom: 50px;
+    }
+    .plan hr{
+        margin-left: 100px; 
+    }
+    /* Package section end */
+
+    /* Appointment section start */
+    .appointment .appointment_form{
+        padding-left: 10px;
+    }
+    .appointment_form h1{
+        padding-right: 100px;
+    }
+    
+    .appointment_form table input{
+        width: 190px;
+        
+    }
+    .appointment_form table select{
+        width: 433px;
+    }
+    textarea{
+        width: 433px;
+    }
+    /* Appointment section end */
+
+    /* Customers section start */
+
+    
+    .customers h1{
+        padding-left: 240px;
+        padding-right: 240px;
+      
+    }
+    .customers .customers_contant{
+        grid-template-columns: 5fr 5fr;
+        padding: 0;
+    }
+    .customers_contant .saying{
+        margin: 10px;
+    }
+    .customers_contant .saying .text_say{
+        /* width: 50%; */
+    }
+
+    /* Customers section end */
+
+    /* Blog section start */
+    .blog{
+        padding:150px 35px;
+    }
+    .blog span{
+        font-size: 19px;
+    }
+    .blog_s1 .pic_part{
+        padding: 10px;
+    }
+
+    /* Blog section end */
+
+    /* footer header  section start */
+    .footer_head{
+        padding: 60px 10px;
+    }
+    .foot_part4 .list{
+        
+        height: 200px;
+        
+    
+    }
+    /* footer header  section end */
+
+}
+
+
+
+@media (max-width:768px){
+    /* header section start */
+    .header{
+        padding-top: 5px;
+    }
+    .nav{
+        display: none;
+    }
+    .chackbtn{
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+    /* header section end */
+
+    /* text section start */
+
+    .text{
+        /* grid-template-columns: 1fr; */
+        width: 100%;
+        padding: 50px 70px 50px 120px;
+    }
+    .text .beauty{
+        margin: 200px auto;
+    }
+    .text .beauty h1{
+        font-size: 55px;
+    }
+    .beauty p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .beauty button{
+        padding: 20px 20px;
+    }
+    /* text section end */
+
+    /* about section start */
+    .about .contant{
+        
+        display: grid;
+        grid-template-columns: 1fr;
+       
+        grid-template-rows: 400px;
+        padding-top: 150px;
+    }
+    .contant .contant_pic{
+       
+        margin-right: 10px;
+        
+    }
+    .contant .contant_pic img{
+        border-top-left-radius: 50%;
+        position: absolute;
+        top: -80px;
+        height: 400px;
+        
+        left: 30px;
+        padding-right: 10px;
+
+    }
+    .contant .contant_text{
+        padding-left: 10px;
+    padding-right: 30px;
+    }
+
+    /* about section end */
+
+    /* Categories section start */
+    .categories h1{
+        font-size: 53px;
+            padding-left: 170px;
+            padding-right: 120px;
+            padding-bottom: 40px;
+        } 
+        .categories .contant_categori{
+            padding: 0 70px;
+        }  
+        .categories .contant_categori .contant_part1,.contant_part2{
+            grid-template-columns: 1fr;
+        }
+        .icon .i1{
+            left:270px ;
+        }
+        .icon .flower1{
+            left: 238px;
+            border-top-right-radius: 55%;
+            border-bottom-left-radius: 55%;
+        }
+        .icon .flower2{
+            left: 305px;
+            border-top-left-radius: 65%;
+            border-bottom-right-radius: 65%;
+        }
+        .message .line{
+            margin-left: 260px;
+        }
+    
+    /* Categories section end */
+
+    /* Best Beauty Salon Center section start */
+    .center button{
+        margin-left: 33%;
+    }
+
+    /* Best Beauty Salon Center section end */
+
+    /* services section start */
+    .services .services_contant{
+        grid-template-columns: 1fr;
+    }
+    .services_contant .part1{
+        margin-left: 100px; 
+    margin-right: 100px;
+    }
+    .part1 .white_div .round1{
+        margin-left: 35px;
+        margin-right: 0;
+    }
+    .part2{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .part2 .white_div .round{
+        margin-right: 0;
+        margin-left: 25px;
+    }
+    /* services section end */
+
+    /* Review section start */
+
+    .review{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .review h1{
+        font-size: 45px;
+        font-weight: 250;
+    }
+    .review .count{
+        grid-template-columns: 5fr 5fr;
+        grid-template-rows: 125px;
+        margin-top: 20px;
+    }
+    .review .count .count1{
+       
+        padding: 10px  50px;
+    }
+    /* Review section end */
+
+    /* Artist section start */
+    .artist h2{
+        font-size: 45px;
+    }
+    .artist .staff{
+        grid-template-columns: 1fr;
+        grid-template-rows: 450px;
+        margin-left: 100px ;
+        margin-right: 100px;
+    }
+   
+    /* Artist section end */
+
+    /* gallery section start */
+    .gallery{
+        grid-template-columns:1fr;
+        grid-template-rows: 350px;
+    }
+    .gallery .gallery_section img{
+        height: 350px;
+    }
+   
+    /* gallery section end */
+
+    /* Package section start */
+    .package{
+        padding: 150px 0 100px 0; 
+    }
+    .package h1{
+        /* font-size: 45px; */
+        font-size: 50px;
+            padding-left: 120px;
+            padding-right: 80px;
+            padding-bottom: 40px;
+    }
+
+    .package .plan{
+        grid-template-columns: 1fr;
+    }
+    .plan .plan_1{
+        margin: 0 200px 50px 200px;
+    }
+    .plan .plan_2{
+        margin: 0 200px 50px 200px;
+    }
+    /* Package section end */
+
+    /* Appointment section start */
+    .appointment .appointment_form{
+        width: 100%;
+        padding-left: 50px;
+    }
+    .appointment_form table{
+        width: 100%;
+    }
+    .appointment_form table input{
+        width: 310px;
+    }
+    .appointment_form table select{
+        width: 655px;
+    }
+    textarea{
+        width: 655px;
+    }
+    /* Appointment section end */
+
+    /* Customers  section start */
+
+    .customers h1{
+        /* font-size: 45px; */
+        font-size: 50px;
+            padding-left: 120px;
+            padding-right: 80px;
+            padding-bottom: 40px;
+    }
+    /* Customers  section end */
+
+    /* Blog section start */
+    .blog{
+        padding:150px 10px; 
+    }
+    .blog .blog_part{
+        grid-template-columns: 1fr;
+        grid-template-rows: 500px;
+    }
+    
+    .text_part p{
+        padding:15px 0;
+        text-align: left;
+        
+    }
+    .blog_s1 .text_part{
+        height: 175px;
+        padding-left: 5px;
+    }
+    /* Blog section end */
+
+    /* footer header section start */
+    .footer_head{
+        padding: 60px 10px;
+    }
+    .footer_head .footer_part{
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px;
+    }
+    .foot_part2 .ul_part{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .foot_part3 .post{
+        grid-template-columns: 2fr 8fr;
+    }
+    .post_text p span a {
+        padding: 5px;
+    }
+
+    /* footer header section end */
+}
+
+
+@media (max-width:576px){
+
+     /* text section start */
+
+     .text{
+        padding: 50px 20px 50px 20px;
+    }
+   
+    /* text section end */
+
+    /* about section start */
+    .contant_text h1{
+        font-size: 45px;
+    }
+
+    /* about section end */
+
+    /* categories section start */
+    .categories h1{
+            padding-left: 60px;
+            padding-right: 80px;
+        } 
+        .categories .contant_categori{
+            padding: 0 10px;
+        }
+        .icon .i1{
+            left:240px ;
+        }
+        .icon .flower1{
+            left: 208px;
+            
+        }
+        .icon .flower2{
+            left: 273px;
+            
+        }
+        .message .line{
+            margin-left: 225px;
+        }  
+    /* categories section end */
+
+    /* Best Beauty Salon Center section start */
+    .center button{
+        margin-left: 26%;
+    }
+    .center p{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* Best Beauty Salon Center section end */
+
+    /* services section start  */
+    .services_contant .part1{
+        margin-left: 10px; 
+        margin-right: 10px;
+    }
+    .part2{
+        margin-left: 10px; 
+        margin-right: 10px;
+    }
+    /* services section end */
+
+    /* Review section start */
+    .review{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .review h1{
+        font-size: 48px;
+    }
+    /* Review section end */
+
+    /* Artist section start */
+    .artist{
+        padding: 100px 10px 100px 10px;
+    }
+    .artist span{
+        font-size: 21px;
+    }
+    .artist h2{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .artist .staff{
+        margin-left: 0;
+        margin-right: 0;   
+    }
+    /* Artist section end */
+
+     /* Package section start */
+     .package{
+        padding: 150px 20px 100px 20px;
+    }
+    
+    .package h1{
+            padding-left: 10px;
+            padding-right: 50px;    
+    }
+
+  
+    .plan .plan_1{
+        margin: 0 ;
+    }
+    .plan .plan_2{
+        margin: 0 ;
+    }
+    .plan hr{
+        margin-left: 190px;
+    }
+    /* Package section end */
+
+    /* Appointment section start */
+    .appointment{
+      padding: 0 15px;
+    }
+    .appointment .appointment_form{
+        padding-left: 10px;
+    }
+    
+    .appointment_form table input{
+        width: 242px;
+    }
+    .appointment_form table select{
+        width: 500px;
+    }
+    textarea{
+        width: 500px;
+    }
+    
+    /* Appointment section end */
+
+    /* Customers  section start */
+
+    .customers h1{
+        /* font-size: 45px; */
+        /* font-size: 50px; */
+            padding-left: 20px;
+            padding-right: 50px;
+            /* padding-bottom: 40px; */
+    }
+    .customers .customers_contant{
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+    }
+    /* Customers  section end */
+    
+}
+
+@media (max-width:453px){
+
+    
+     /* text section start */
+
+     .text{
+        padding: 50px 10px 50px 10px;
+    }
+   
+    /* text section end */
+
+    /* about section start */
+    .contant_text h1{
+        font-size: 45px;
+    }
+    .contant .contant_pic img{
+        left: 20px;
+        width:98% ;
+    }
+    .contant_text .btn2{
+        margin-left: 0;
+    }
+
+    /* about section end */
+
+    /* categories section start */
+    .categories h1{
+            padding-left: 10px;
+            padding-right: 30px;
+            font-size: 45px;
+        } 
+        .categories .contant_categori{
+            padding: 0 ;
+        }
+        .icon .i1{
+            left:190px ;
+        }
+        .icon .flower1{
+            left: 155px;
+            
+        }
+        .icon .flower2{
+            left: 225px;
+            
+        }
+        .message .line{
+            margin-left: 170px;
+        }  
+    /* categories section end */
+
+    /* Best Beauty Salon Center section start */
+    .center button{
+        margin-left: 20%;
+    }
+    .center p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* Best Beauty Salon Center section end */
+
+    /* services section start  */
+    .services_contant .part1{
+        margin-left: 0; 
+        margin-right:0;
+    }
+    .part2{
+        margin-left:0; 
+        margin-right:0;
+    }
+    /* services section end */
+
+    /* Review section start */
+    
+    .review .count{
+        grid-template-columns: 1fr;
+    }
+    /* Review section end */
+
+    /* Artist section start */
+    
+    /* Artist section end */
+
+    
+    
+    .package h1{
+            padding-left: 10px;
+            padding-right: 20px;    
+    }
+
+  
+    .plan hr{
+        margin-left: 140px;
+    }
+    /* Package section end */
+
+    /* Appointment section start */
+   
+    
+    .appointment_form table input{
+        width: 173px;
+    }
+    .appointment_form table select{
+        width: 370px;
+    }
+    textarea{
+        width: 370px;
+    }
+    
+    /* Appointment section end */
+
+   
+
+    /* footer header section start */
+    .foot_part3 .post{
+        grid-template-columns: 2fr 8fr;
+    }
+    /* footer header section end */
 }
