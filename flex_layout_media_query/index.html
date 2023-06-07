@@ -46,12 +46,12 @@
 		</div>
 		<div class="head_menu"  id="menu_div">                                   
 			<ul id="ul">
-				<li><a href="" class="active">Home</a></li>
-				<li><a href="">About</a></li>           
-				<li><a href="">Menu</a></li>
-				<li><a href="">Stories</a></li>
-				<li><a href="">Contact</a></li>
-				<li><span id="btn"><a href="">Book a table</a></span></li>
+				<li><a href="index.html" class="active">Home</a></li>
+				<li><a href="about.html">About</a></li>           
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="blog.html">Stories</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><span id="btn"><a href="reservation.html">Book a table</a></span></li>
 			</ul>
 			
 		</div>
@@ -142,19 +142,19 @@
     	</div>
     	<div class="count">
     		<div class="count_1">
-    			<strong>18</strong>
+    			<strong id="counter"></strong>
     			<span>Years of Experienced</span>
     		</div>
     		<div class="count_2">
-    			<strong>100</strong>
+    			<strong id="counter1"></strong>
     			<span>Menus/Dish</span>
     		</div>
     		<div class="count_3">
-    			<strong>50</strong>
+    			<strong id="counter2"></strong>
     			<span>Staffs</span>
     		</div>
     		<div class="count_4">
-    			<strong>15,000</strong>
+    			<strong id="counter3"></strong>
     			<span>Happy Customers</span>
     		</div>
     		<div class="count_5">
@@ -682,6 +682,69 @@
 		 
    
     }
+
+	let counters = setInterval(updated,200);
+        
+
+        let sec = 0;
+       
+
+        function updated(){
+            var counts = document.getElementById('counter');            
+            counts.innerHTML = ++sec;
+            
+           
+            if(sec === 18)
+            {
+                clearInterval(counters);
+            }
+
+            
+        }
+   
+        let counters1 = setInterval(updated1,50);
+
+        let c = 0;
+
+          function updated1(){
+            var counts1 = document.getElementById('counter1');
+            counts1.innerHTML = ++c;
+    
+            if(c === 100)
+            {
+                clearInterval(counters1);
+            }
+          }
+
+
+          let counters2 = setInterval(updated2,100);
+        
+        let x = 0;
+
+          function updated2(){
+            var counts2 = document.getElementById('counter2');
+            counts2.innerHTML = ++x;
+    
+            if(x === 50)
+            {
+                clearInterval(counters2);
+            }
+          }
+
+          let counters3 = setInterval(updated3);
+        
+        let a = 0;
+
+          function updated3(){
+            var counts3 = document.getElementById('counter3');
+            counts3.innerHTML = ++a;
+    
+            if(a === 1500)
+            {
+                clearInterval(counters3);
+            }
+          }
+	
 
 	
 
