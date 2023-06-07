@@ -1,0 +1,17 @@
+@media (max-width:500px){
+
+    .headerup{
+        display: grid;
+        /* grid-template-columns: 1fr ; */
+        
+
+    }
+    .infro{
+        grid-template-columns: 1fr;
+
+    }
+    .infro_{
+        grid-template-columns: 1fr;
+    }
+   
+}
