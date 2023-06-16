@@ -1,0 +1,381 @@
+/*------------- navigation page start---------- */
+.navbar {
+    border-bottom: 1px solid #8080805c;
+}
+
+.form-control {
+    background-color: #f7f7f7;
+}
+
+.singupbtn .nav-link {
+    background-color: #f52828;
+    border: 1px solid #f52828;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    /* padding:7px 15px; */
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 32px;
+    color: rgba(0, 0, 0, .9);
+    
+}
+
+.navbar-brand img {
+    width: 35px;
+    margin: 5px;
+}
+.input{
+    display: none;
+}
+.nav_logo .navbar-brand{
+    display: none;
+}
+
+
+/* -------------navigation page end------------------ */
+
+
+/* ------------header text part start-------------- */
+
+.bacground_part {
+    padding-top: 90px;
+    height: 430px;
+    width: 100%;
+    /* background-color: aqua; */
+
+}
+
+.linesize {
+    font-size: 53px;
+    font-weight: 700;
+
+}
+
+.linesizes {
+    font-size: 53px;
+    font-weight: 700;
+    z-index: 3;
+    margin-top: -25px;
+
+}
+
+.line {
+    height: 10px;
+    width: 340px;
+    background-color: #f52828;
+    margin: auto;
+}
+
+.singup {
+    background-color: #f52828;
+    border: 1px solid #f52828;
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+}
+.app{
+    display: none;
+    background-color: #f52828;
+    border: 1px solid #f52828;
+    padding: 15px 60px;
+    color: white;
+    font-weight: bold;
+}
+
+/*----------------- header text part end------------ */
+/* -----------------menu page start------------- */
+.menu .nav-link{
+         color:black
+}
+
+/*------------------- menu page end -------------*/
+
+
+/* * News parts start */
+
+.card {
+    border-radius: 20px;
+    height: 600px;
+    position: relative;
+
+}
+
+.card_header {
+    height: 60px;
+}
+
+.card_header img {
+    width: 37px;
+    padding-top: 5px;
+    border-radius: 50%;
+}
+
+.card_header .span1 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card_header span {
+    font-size: 15px;
+}
+
+.card-body .img {
+    height: 250px;
+    width: 390px;
+    border-radius: 10px;
+}
+.card-body .fa{
+    font-size: 19px;
+}
+
+.likes {
+    position: absolute;
+    bottom: 5px;
+    right: auto;
+
+}
+
+.card-text {
+    color: black;
+    font-size: 25px;
+}
+
+.shar_list{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 420px;
+}
+.shar_list a{
+    color: black;
+}
+
+
+
+
+/* News parts end */
+
+/* read more page start */
+.readmore {
+    background-color: #f52828;
+    border: 1px solid #f52828;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* read more page end */
+
+/* footer page start */
+.footer {
+    height: 150px;
+}
+
+.text a {
+    color: #000000b8;
+    font-size: 14px;
+}
+
+.copy {
+    text-decoration: none;
+}
+
+/* footer page end */
+
+/* news letters page start */
+.heading h1{
+    font-size: 33px;
+    font-weight: 400;
+}
+.inputtype input{
+    border: none;
+    width: 500px;
+    padding: 10px 20px;
+    
+}
+.subscribe button{
+    background-color: #f52828;
+    border: 1px solid #f52828;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.sub_section{
+    margin: auto;
+}
+.sub_section p{
+    font-size: 12px;
+}
+/* news letters page end */
+
+
+
+
+/* sign up page start */
+
+.main_form{
+background-color: black;
+padding-top: 5px;
+height: 100vh;
+
+}
+
+.form_contant {
+    height: 620px;
+   
+   
+    /* background-color: #262626; */
+}
+ 
+.form_info{
+    height:620px;
+    background-color: #f7f7f7;
+    /* width: 220px; */
+}
+.form_info .logo{
+    height: 200px;
+    padding: 85px 100px 10px 100px;
+}
+.form_info .logo img{
+    height: 80px;
+    width: 80px;
+    
+}
+.form_info .info_text{
+    height: 150px;
+}
+.info_text h3{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 32px;
+}
+.info_text p{
+    font-weight: 500;
+    font-size: 18px;
+}
+.list {
+    height: 200px;
+    
+    /* background-color: #f7f7f7; */
+}
+.list .list_main{
+    height: 150px;
+    width: 300px;
+    background-color: aqua;
+}
+.list .list-group-item .s1{
+    padding: 7px;
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+}
+.list .list-group-item{
+    padding-left: 60px;
+    font-size: 14px;
+}
+.list ul li{
+    border: none;
+}
+.form_data{
+    height: 620px;
+    background-color: white;
+    position: relative;
+}
+.delete_icons_form{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+   
+ }
+ .delete_icons a{
+     border: none;
+ }
+
+/* .form_data input{
+    width: 300px;
+} */
+form{
+justify-content: center;
+/* border: 1px solid gold; */
+/* margin: auto; */
+}
+ .form_data form input{
+    /* justify-content: center; */
+    margin:auto;
+    width: 400px;
+}
+form button{
+    width: 400px;
+}
+
+.form_data a{
+    color: black;
+}
+
+
+/* sign up page end */
+
+/* login page start */
+.login_form{
+    background-color: black;
+    padding-top: 10px;
+}
+.login_contant{
+    height: 615px;
+    width: 350px;
+    background-color: #fff;
+}
+
+.login_contant img{
+    height: 50px;
+    width: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.login_contant h1{
+    /* font-family: FaktCondensed, AvenirNextCondensed-Medium, "Segoe UI", sans-serif; */
+    font-weight: 800;
+    /* text-transform: uppercase; */
+    /* color: var(--color--text-primary); */
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.login_contant a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+.form_type button{
+    width: 320px;
+}
+.form_type .para a{
+    /* color: black; */
+    border: none;
+    }
+    .login_contant .sign_link a{
+        border: none;
+    }
+    .login_contant{
+        position: relative;
+    }
+
+    .delete_icons{
+       position: absolute;
+       right: 10px;
+       top: 10px;
+       font-size: 20px;
+      
+    }
+    .delete_icons a{
+        border: none;
+    }
+/* login page end */
