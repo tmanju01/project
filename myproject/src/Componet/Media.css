@@ -1,0 +1,194 @@
+
+@media(max-width:1400px){
+    .openapp{
+        display: none;
+    } 
+}
+
+
+@media(max-width:1200px)
+{
+    .nav1{
+        margin-right: 37px !important;
+        margin-left: 37px !important;
+    } 
+    .card-body .img {
+        width: 335px;
+    }
+    .openapp{
+        display: none;
+    }
+}
+@media(max-width:992px){
+
+    .nav1{
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+    }
+    .card-body .img {
+        width: 420px;
+    }
+}
+
+
+
+
+@media(max-width:768px){
+
+    .collapse:not(.show) {
+        display: block;
+    }
+    
+    .nav1{
+        margin-right: 12px !important;
+        margin-left: 12px !important;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+
+    .news1{
+        display: none;
+    }
+    /*------------ nav page end------------------- */
+
+    .card-body .img {
+        width: 310px;
+    }
+}
+
+
+
+
+
+@media(max-width:500px) {
+
+    /* ---------Nav page start------------- */
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar {
+        border: none;
+    }
+
+    .navbar-nav .nav-item .news {
+        display: none;
+    }
+
+    input {
+        width: 200px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .form-control {
+        width: 450px;
+        margin-left: 20px;
+    }
+
+    .input {
+        display: block;
+    }
+
+    .nav_logo .navbar-brand{
+        display: block;
+    }
+
+    .nav_logo .navbar-brand img {
+        width: 30px;
+    }
+
+    .nav_logo {
+        padding: 20px 130px;
+    }
+
+    /*---------- nav page end-------- */
+
+
+    /* ------------header page start -----------*/
+    .text-center .linesize {
+        font-size: 36px;
+    }
+
+    .text-center .linesizes {
+        font-size: 36px;
+        z-index: 3;
+    }
+
+    .line {
+        width: 240px;
+    }
+
+    .singup {
+        display: none;
+    }
+
+    .app {
+        display: block;
+        margin-left: 110px;
+    }
+
+    /*------------------- header page end --------------*/
+
+    /* new_news page */
+    .news_contant{
+        display: none;
+
+    }
+    
+  /* new_news page end */
+
+  .card-body .img {
+    width: 420px;
+}
+    /* --------read more page start--------- */
+    .readmore {
+        display: none;
+    }
+
+    /*------------ read more page end------- */
+
+    /*---------- footer page start---------------- */
+    .footer .text a {
+        font-size: 12px;
+
+    }
+
+    /* ---------------footer page end------------ */
+
+
+    /* ---------signup page start--------- */
+    .main_form{
+        background-color: black;
+        padding-top: 2px;
+        height: 100vh;
+        
+        }
+    .form_info{
+        display: none;
+        
+    }
+    .form_data {
+        width: 100%;
+        height: 600px;
+        
+    }
+    .form_data form input{
+        /* justify-content: center; */
+        /* margin:0; */
+        width: 200px;
+    }
+    .form_data .link , .p1{
+        display: none;
+    }
+    /* --------sign up page end---------- */
+
+
+}
+
