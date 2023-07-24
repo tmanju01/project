@@ -1,0 +1,475 @@
+@media(max-width:1475px) {
+    .bar ul li {
+      margin-left: 20px;
+    }
+  
+    .logo img {
+      margin-left: 46px;
+    }
+  
+    .logo {
+      width: 25%;
+    }
+  
+    .bar {
+      width: 75%;
+    }
+  
+    .bar button {
+      margin-left: 40px;
+    }
+  
+    .main p,
+    .main .one {
+      margin-left: 50px;
+    }
+  
+    .about .aboutme h1,
+    .main3 .aboutme h5,
+    .main3 .aboutme h3 {
+      margin-left: 60px;
+    }
+  
+  
+  }
+  
+  @media(max-width:1351px) {
+  
+    .main p,
+    .main .one {
+      margin-left: 30px;
+      font-size: 50px;
+    }
+  
+    
+  
+    .main1 {
+      padding: 220px 190px 0px 190px;
+    }
+  
+    .skill_set {
+      padding-left: 100px;
+    }
+  
+    .skill_section .expri .expri_contant {
+      margin-left: 100px;
+    }
+  
+    .about .aboutme h1,
+    .about .aboutme h5,
+    .about .aboutme h3 {
+      margin-left: 30px;
+    }
+  
+   
+  
+    .about {
+      padding-top: 100px;
+    }
+  }
+  
+  
+  
+  @media(max-width:1200px) {
+    .bar ul li {
+      margin-left: 15px;
+    }
+  
+    .bar button {
+      width: 130px;
+    }
+  
+    .logo {
+      width: 20%;
+    }
+  
+    .bar {
+      width: 80%;
+    }
+  
+    .logo img {
+      margin-left: 0px;
+      width: 180px;
+    }
+  
+    .left {
+      width: 100%;
+    }
+  
+    .right {
+      width: 80%;
+      
+    }
+  
+    .main p,
+    .main .one {
+      margin-left: 40px;
+      font-size: 65px;
+    }
+  
+   
+  
+    .right ul {
+      right: -10%;
+    }
+  
+    .main1 {
+      padding: 220px 130px 0px 130px;
+    }
+  
+    .main1 p {
+      left: -15%;
+    }
+  
+    .skill_set{
+      padding-left: 70px;
+    }
+  
+    #mysk,
+    #myexp {
+      margin-left: 20px;
+    }
+  
+    .skill_section .expri .expri_contant{
+      margin-left: 80px;
+    }
+  }
+
+  
+  
+  @media(max-width:1000px) {
+    .logo {
+      display: none;
+    }
+  
+    .bar {
+      width: 100%;
+    }
+  
+    .bar ul li {
+      margin-left: 25px;
+    }
+  
+    .main1 {
+      padding: 220px 73px 0px 73px;
+    }
+  
+   
+  
+    .HTML,
+    .CSS,
+    .BT,
+    .JS,
+    .JQ,
+    .REACT,
+    .REDUX {
+      width: 33%;
+    }
+  
+    .skill_section .expri {
+      margin-top: 190px
+    }
+  
+    .skill_set{
+      padding-left: 20px;
+    }
+    .skill_section {
+      padding-bottom: 50px;
+    }
+  
+    .HTML,
+    .CSS,
+    .BT,
+    .JS,
+    .JQ,
+    .REACT,
+    .REDUX {
+      text-align: center;
+    }
+  
+    .jp {
+      margin-left: 0px;
+    }
+  
+    .HTML img,
+    .CSS img,
+    .BT img,
+    .JS img,
+    .JQ img,
+    .REACT img,
+    .REDUX img {
+      width: 200px;
+    }
+  
+    .skill_section .skill {
+      margin-left: 15px;
+    }
+  }
+  
+  
+  @media(max-width:850px) {
+    .bar{
+      padding-bottom: 30px;
+    }
+    
+    .bar ul li {
+      margin-left: 4px;
+    }
+  
+    .main p,
+    .main .one {
+      margin-left: 19px;
+      font-size: 58px;
+    }
+  
+    .main {
+      margin-top: 0;
+    }
+  
+    
+  
+    .mainright ul {
+      right: -25%;
+      top: -5%;
+    }
+  
+    .main1 .mainleft,
+    .main1 .mainright {
+      width: 100%;
+    }
+  
+    .mainlefttop {
+      border-top: none;
+      border-bottom: 2px solid #DB9A64;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  
+    .mainleftbottom {
+      border-top: none;
+      border-bottom: 2px solid #DB9A64;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  
+    .mainrighttop {
+      border-top: none;
+      border-left: none;
+      border-bottom: 2px solid #DB9A64;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  
+    .mainrightbottom {
+      border-top: none;
+      border-left: none;
+      border-bottom: 2px solid #DB9A64;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  
+   
+    .skill_section .skill .skill_set {
+      padding-right: 20px;
+    }
+    
+  
+  }
+  
+  
+  @media(max-width:800px) {
+  
+    .bar button {
+      margin-left: 20px;
+      height: 50px;
+      font-size: 15px;
+      width: 100px;
+    }
+  
+    .bar ul li {
+      font-size: 15px;
+      padding: 15px;
+    }
+  
+    .main p,
+    .main .one {
+      font-size: 45px;
+    }
+   
+  
+    .mainright ul {
+      right: -35%;
+    }
+  
+   
+  
+    .main1 p {
+      top: -2%;
+      left: -25%;
+    }
+  
+    .main1 {
+      padding: 220px 37px 30px 37px;
+    }
+  
+    .HTML,
+    .CSS,
+    .BT,
+    .JS,
+    .JQ,
+    .REACT,
+    .REDUX {
+      width: 50%;
+    }
+  
+    .skill_section .skill {
+      margin-right: 20;
+    }
+  
+    .skill_section .expri .expri_contant .contant_1 h6,
+    .skill_section .expri .expri_contant .contant_2 h6 {
+      font-size: 19px;
+    }
+  
+    .skill_section .expri .expri_contant .contant_1 h2,
+    .skill_section .expri .expri_contant .contant_2 h2 {
+      font-size: 55px;
+    }
+    .about .aboutme{
+      text-align: start;
+    }
+  
+  }
+  
+  @media(max-width:680px) {
+    .bar ul li {
+      font-size: 13px;
+      padding: 6px;
+    }
+  
+    .bar button {
+      margin-left: 5px;
+      font-size: 13px;
+      width: 90px;
+    }
+  
+    
+  
+    .mainright ul {
+      display: flex;
+      position: static;
+      margin-left: 170px;
+    }
+  
+    .skill_section .expri .expri_contant {
+      margin-left: 50px;
+    }
+    
+  
+    .main1 p {
+      top: -2%;
+      left: -28%;
+    }
+  
+    .jp {
+      margin: 0px 15px;
+    }
+  
+    .main1 .mainleft .mainlefttop img,
+    .main1 .mainleft .mainleftbottom img,
+    .main1 .mainright .mainrighttop img,
+    .main1 .mainright .mainrightbottom img {
+      height: 370px;
+    }
+  
+  }
+  
+  @media(max-width:500px) {
+    .bar button {
+      display: none;
+    }
+    .main p,
+    .main .one {
+      font-size: 33px;
+    }
+  
+    .main1 p {
+      left: -35%;
+    }
+  
+    .HTML img,
+    .CSS img,
+    .BT img,
+    .JS img,
+    .JQ img,
+    .REACT img,
+    .REDUX img {
+      width: 170px;
+    }
+  }
+  
+  @media(max-width:430px) {
+    .main1 p {
+      left: -43%;
+    }
+  
+   
+  
+    .HTML img,
+    .CSS img,
+    .BT img,
+    .JS img,
+    .JQ img,
+    .REACT img,
+    .REDUX img {
+      width: 130px;
+      height: 160px;
+    }
+  
+    .main p,
+    .main .one {
+      margin-left: 10px;
+    }
+  
+    .mainright ul {
+      display: flex;
+      position: static;
+      margin-left: 165px;
+    }
+  
+    .main p,
+    .main .one {
+      font-size: 32px;
+    }
+  
+    .mainright ul li a {
+      width: 70px;
+      height: 70px;
+      font-size: 19px;
+      line-height: 80px;
+      margin: 10px 5px;
+    }
+  }
+  
+  @media(max-width:400px) {
+    .main1 p {
+      left: -43%;
+    }
+  
+    .skill_section .expri .expri_contant .contant_1 h6,
+    .skill_section .expri .expri_contant .contant_2 h6 {
+      font-size: 13px;
+    }
+  
+    .skill_section .expri .expri_contant .contant_1 h2,
+    .skill_section .expri .expri_contant .contant_2  h2 {
+      font-size: 46px;
+    }
+  
+    .bar ul li {
+      font-size: 12px;
+      padding: 5px;
+    }
+  
+  
+  }

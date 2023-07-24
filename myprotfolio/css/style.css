@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/imges/BG.png');
+    background-size: 100% 100%;
+    overflow-x: hidden;
+} 
+img{
+  object-fit: cover;
+} 
+ .bar  button:hover{
+    background-color: white;
+ 
+  border-top-left-radius:0;
+border-bottom-right-radius: 0;
+}
+
+.main1 .mainleft .mainlefttop button:hover, .main1 .mainleft .mainleftbottom button:hover, .main1 .mainright .mainrighttop 
+      button:hover, .main1 .mainright .mainrightbottom button:hover {
+        background-color: white;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 0;
+     }
+
+/* navbar section start */
+.navbar{
+   
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    backdrop-filter: blur(1090px);
+}
+/* logo section start */
+.logo{
+    width: 25%;
+   
+    line-height: 70px;
+    background-color:#f7a8a3;
+}
+.logo img{
+    height: 73px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+/* logo section end */
+/* bar section start */
+.bar{
+    
+    line-height: 70px;
+    width: 75%;
+    padding-top: 20px;
+   
+}
+.bar ul a{
+    text-decoration: none;
+    color:#f7a8a3;
+}
+.bar button{
+    height: 70px;
+    width: 190px;
+    font-size: 19px;
+    background-color: #f7a8a3;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    border-top-left-radius: 40px;
+border-bottom-right-radius: 40px;
+}
+.bar button a{
+    text-decoration: none;
+    color: rgb(0, 49, 49);
+}
+.bar ul li {
+    display: inline;
+    margin-left: 46px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    position: relative;
+    font-weight: lighter;
+}
+
+/* bar section end */
+/* navbar section end */
+
+/* background section 1 start */
+.main {
+    display: flex;
+    background-image: url('/imges/BG.png');
+    background-size: cover;
+    /* margin-top: 100px; */
+    flex-wrap: wrap;
+}
+
+/* left part start */
+.main .left{
+    height: 600px;
+    width: 50%;
+    
+}
+.main .one {
+    margin-left: 70px;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+  }
+  .main p {
+    margin-left: 70px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    color: white;
+    font-weight: lighter;
+  }
+  .main .two {
+    color: #f7a8a3;
+    font-weight: lighter;
+  }
+/* left part end */
+/* right part start */
+.main .right{
+    height: 600px;
+width: 40%;
+margin-top: 60px;
+position: relative;
+}
+
+
+.right ul{
+    display: block;
+position: absolute;
+top: 2%;
+right: -20%;
+}
+.right ul li{
+    list-style: none;
+}
+
+  .right ul li a {
+    width: 80px;
+    height: 80px;
+    background-color: #f7a8a3;
+    text-align: center;
+    line-height: 80px;
+    font-size: 37px;
+    margin: 33px 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid rgb(0, 0, 0);
+    z-index: 1;
+    color: white;
+  }
+  
+  .right ul li a {
+    text-align: center;
+    line-height: 80px;
+    font-size: 37px;
+    color: white;}
+  .right ul li a .icon {
+    position: relative;
+    transition: 1s;
+    z-index: 3;
+  }
+  .fa {
+    display: inline-block;
+   
+      font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;}
+/* right part end */
+/* background section 1 end */
+
+
+/* background section 2 start */
+.main1 {
+    height: auto;
+    background-color: #311E25;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 220px 250px 0px 250px;
+    position: relative;
+}
+
+    .main1 p {
+        color: #f7a8a3;
+        font-family: 'Roboto', sans-serif;
+        font-size: 37px;
+        font-weight: lighter;
+        margin: 190px 0px 0px 200px;
+        position: absolute;
+        top: -3%;
+        left: -5%;
+    }
+
+    .main1 .mainleft, .main1 .mainright {
+        width: 50%;
+      }
+      .mainlefttop {
+        border-top: 1px solid #f7a8a3;
+        padding-right: 30px;
+        height: 50%;
+        padding-top: 30px;
+      }
+      .mainlefttop img,.mainleftbottom img,.mainrighttop img, .mainrightbottom img{
+             background-size: cover;
+      }
+
+      .main1 .mainleft .mainlefttop h3, .main1 .mainleft .mainleftbottom h3,.main1 .mainright .mainrighttop h3,
+       .main1 .mainright .mainrightbottom h3{
+        color: azure;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: lighter;
+        text-align: center;
+      }
+      .main1 .mainleft .mainlefttop button, .main1 .mainleft .mainleftbottom button, .main1 .mainright .mainrighttop 
+      button, .main1 .mainright .mainrightbottom button {
+        background-color: #f7a8a3;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 10px;
+        font-size: 19px;
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 10px 0px;
+        border-bottom-right-radius: 28px;
+        border-top-left-radius: 28px;
+        transition: 0.3s;
+        font-weight: lighter;
+      }
+      .main1 .mainleft .mainlefttop button a, .main1 .mainleft .mainleftbottom button a,
+       .main1 .mainright 
+      .mainrighttop button a, .main1 .mainright .mainrightbottom button a {
+        text-decoration: none;
+        color: #311E25;}
+
+        .mainleftbottom {
+            padding-right: 30px;
+            height: 50%;
+            border-bottom: 1px solid #f7a8a3;
+            padding-top: 50px;
+          }
+          .mainrighttop {
+            padding-left: 30px;
+            border-left: 1px solid #f7a8a3;
+            border-top: 1px solid #f7a8a3;
+            height: 50%;
+            padding-top: 30px;
+          }
+          .mainrightbottom {
+            padding-left: 30px;
+            border-bottom: 1px solid #f7a8a3;
+            border-left: 1px solid #f7a8a3;
+            height: 50%;
+            padding-top: 50px;
+          }
+          
+/* background section 2 end */
+
+
+/* skill section  start */
+.skill_section{
+  height: auto;
+background-color: #3b2930;
+padding: 100px 0px;
+}
+.skill_section .skill h1, .skill_section .expri h1 {
+  color: #f7a8a3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 37px;
+  margin-left: 120px;
+  line-height: 73px;
+  font-weight: lighter;
+}
+.skill_section .skill {
+  height: 50%;
+}
+
+.skill_set{
+  
+    display: flex;
+    color: #fff;
+    padding-left: 150px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  
+}
+.HTML, .CSS, .BT, .JS, .JQ, .REACT, .REDUX {
+  width: 13%;
+  height: 200PX;
+  border: 1px solid #f7a8a3;
+}
+.skill_set  h6 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+
+
+.expri{
+  
+    height: 50%;
+    margin-top: 100px;
+  
+}
+.expri .expri_contant{
+  height: 300px;
+width: 82%;
+border: 1px solid #f7a8a3;
+margin-top: 30px;
+margin-left: 150px;
+display: flex;
+}
+.expri_contant .contant_1,.expri_contant .contant_2 {
+  width: 50%;
+text-align: center;
+}
+ .expri_contant .contant_1 h2, .expri_contant .contant_2 h2 {
+  color: #f7a8a3;
+  font-size: 75px;
+  margin-top: 100px;
+}
+.expri_contant .contant_1 h6, .expri_contant .contant_2 h6 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+.expri_contant .line{
+  height: 100px;
+width: 1px;
+margin-top: 100px;
+background-color: #f7a8a3;
+}
+/* skill section  end */
+
+
+
+/* about section start */
+.about{
+  height: auto;
+background-color: #311E25;
+display: flex;
+padding-top: 100px;
+flex-wrap: wrap;
+padding-bottom: 100px;
+}
+.about .aboutme{
+  
+    height: auto;
+    width: 100%;
+    padding-right: 100px;
+    text-align: center;
+}
+.aboutme h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 55px;
+ 
+  margin-bottom: 50px;
+  color: #f7a8a3;
+  font-weight: lighter;
+}
+.aboutme h5{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  
+  margin-bottom: 50px;
+  color: white;
+  font-weight: lighter;
+}
+
+.aboutme h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+ 
+  color: #f7a8a3;
+  font-weight: lighter;
+}
+/* about section end */

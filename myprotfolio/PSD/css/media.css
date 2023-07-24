@@ -1,0 +1,153 @@
+@media (max-width:992px){
+    .image_section {
+        background-size: 100% 100%;
+    }
+}
+@media (max-width:992px){
+    .nav-item{
+        text-align: center;
+    }
+    .discount_image {
+        margin-left: 250px;
+    }
+    .offers_contant {
+        padding: 50px;
+    }
+    .text p {
+        padding-right:0;
+    }
+    .about_us .text h2{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about_us p {
+        padding: 0 100px;
+    }
+    .image {
+        padding-left: 0;
+    }
+    .discount_contant h1 {
+        font-size: 120px;
+    }
+    .discount_contant h3 {
+        font-size: 60px;
+    }
+    .discount_contant h2 {
+        font-size: 95px;
+    }
+    .image_contant p {
+        padding: 0 100px;
+    }
+    .latest_offers p {
+        padding: 0 100px;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer_contant {
+        height: auto;
+        
+       
+    }
+  
+}
+
+@media (max-width:768px){
+    .about_part {
+        height: auto;
+    }
+    section {
+        padding: 85px 30px;
+    }
+    .about_container {
+        height: auto;
+    }
+    .image {
+        padding-left: 50px;
+    }
+    .discount_contant {
+        padding-top: 0;
+    }
+    .text {
+        padding-top: 50px;
+    }
+    .offers_contant {
+        height: auto;
+    }
+    .image_contant p {
+        padding: 0;
+    }
+    .latest_offers p {
+        padding: 0;
+    }
+    h1 {
+        font-size: 85px;
+    }
+    
+}
+
+@media (max-width:576px){
+    .about_us{
+        height: auto;
+          }
+          .about_us p {
+            padding: 0;
+        }
+        .text {
+            height: auto;
+        }
+        .discount_image {
+            margin-left: 0;
+        }
+         .discount_contant h1 {
+            font-size: 70px;
+        } 
+        .discount_contant h1 {
+            left: 10px;
+            font-size: 70px;
+        }
+        .discount_contant h2 {
+            font-size: 77px;
+            left: 10px;
+        } 
+        .discount_contant h3 {
+            left: 60px;
+        }
+        .mariachi {
+            height: 300px;
+        }
+        .about {
+            height: 300px;
+        }
+        .services {
+            height: 300px;
+        }
+        .other {
+            height: 300px;
+        }
+}
+@media (max-width:500px){
+    h1 {
+        font-size: 60px;
+    }
+    .text {
+        height: auto;
+    }
+    span input {
+        width: 400px;
+    }
+    .footer {
+      
+        padding: 20px ;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    .theme-bg{
+        /* background-size: contain;
+        background-repeat: no-repeat; */
+        /* justify-content: center; */
+        /* background-size: 100% 100%; */
+        /* height: auto; */
+    }
+}

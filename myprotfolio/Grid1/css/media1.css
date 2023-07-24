@@ -1,0 +1,527 @@
+@media (max-width:1200px){
+    .header{
+        padding-top: 15px;
+    }
+    .logo{
+        padding-left: 30px;
+    }
+    .nav ul li a {
+        font-size: 17px;
+    }
+    .text{
+      padding-left: 30px;  
+    }
+    .text .beauty h1 {
+        font-size: 58px;
+    }
+    .about .contant {
+        padding-left: 0;
+    }
+    .contant_text h1 {
+        font-size: 55px;
+    }
+    .categories h1 {
+        font-size: 50px;
+    }
+    .categories .contant_categori {
+        padding: 0 20px;
+    }
+    .services_contant .part1 {
+        margin-left: 50px;
+    }
+    .part2{
+        margin-right: 50px;
+        margin-left: 160px;
+    }
+    .review h1 {
+        font-size: 50px;
+    }
+    .count1 h2 {
+        font-size: 50px;
+    }
+    .artist h2 {
+        font-size: 50px;
+    }
+    .artist {
+        padding: 100px 25px;
+    }
+    .package {
+        padding: 150px 25px 100px 25px ;
+    }
+    .plan button a {
+        font-size: 15px;
+    }
+    .appointment .appointment_form{
+        padding-left: 35px;
+    }
+    .appointment_form h1 {
+        font-size: 40px;
+    }
+    .appointment_form table {
+        width: 96%;
+    }
+    .appointment_form table select {
+        width: 495px;
+    }
+    textarea {
+        width: 495px;
+    }
+    table button a {
+        font-size: 15px;
+    }
+    .customers h1 {
+        font-size: 50px;
+    }
+    .customers .customers_contant{
+        padding: 0 35px;
+    }
+    .customers_contant .saying {
+        margin: 10px;
+    }
+    .blog h1 {
+        font-size: 50px;
+    }
+    .blog {
+        padding: 150px 50px;
+    }
+    .text_part h3 {
+        font-size: 25px;
+    }
+    .footer_head {
+        padding: 60px 30px;
+    }
+    .foot_part1 a {
+        font-size: 26px;
+    }
+    .foot_part2 h2 {
+        font-size: 26px;
+    }
+    .foot_part3 h2 {
+        font-size: 26px;
+    }
+    .foot_part4 h2 {
+        font-size: 26px;
+    }
+    .foot_part1 ul li {
+        padding: 10px;
+    }
+}
+@media (max-width:1000px){
+    .logo{
+        padding-left: 15px;
+    }
+   
+    .nav ul li{
+        padding: 10px;
+    }
+    .text {
+        padding-left: 20px;
+    }
+    .text .beauty h1 {
+        font-size: 55px;
+    }
+    .about .contant {
+        grid-template-columns: 5fr 5fr;
+    }
+    .contant .contant_pic img {
+        left: 10px;
+        width: 100%;
+    }
+    .contant_text h1 {
+        font-size: 40px;
+    }
+    .contant .contant_text {
+        padding-right: 30px;
+    }
+    .categories h1 {
+        font-size: 40px;
+    }
+    .icon .flower1 {
+        left: 65px;
+    }
+    .icon .i1 {
+        left: 100px;
+    }
+    .icon .flower2 {
+        left: 135px;
+    }
+    .message .line {
+        margin-left: 90px;
+    }
+    .part1 .a .msg h3 {
+        font-size: 29px;
+    }
+    .part1 .a .msg p {
+        font-size: 18px;
+    }
+    .part2 .a .msg h3 {
+        font-size: 29px;
+    }
+    .part2 .a .msg p {
+        font-size: 18px;
+    }
+    .services .services_contant {
+        grid-template-rows: 650px;
+    }
+    .review .count {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .review .count .count1 {
+        padding: 30px;
+    }
+    .artist {
+        padding: 100px 15px;
+    }
+    .plan hr {
+        margin-left: 90px;
+    }
+    .appointment .appointment_form {
+        padding-left: 15px;
+    }
+    .appointment_form h1 {
+        font-size: 45px;
+    }
+    .appointment_form table input {
+        width: 200px;
+    }
+    .appointment_form table select {
+        width: 430px;
+    }
+    textarea {
+        width: 430px;
+    }
+    .customers .customers_contant {
+        padding: 0px 10px;
+    }
+    .footer_head {
+        padding: 60px 10px;
+    }
+}
+
+@media (max-width:768px){
+    .logo {
+        padding-left: 10px;
+    }
+    .nav ul li {
+        padding: 5px;
+    }
+    .nav ul li a {
+      
+        padding: 10px
+    }
+    .header {
+        
+        grid-template-columns: 2fr 8fr;
+    }
+    .text {
+        width: 38%;
+    }
+    .contant .contant_text {
+        padding-left: 25px;
+        padding-right: 5px;
+    }
+    .contant_text .btn2 {
+        margin-top: 0;
+    }
+    .icon .flower1 {
+        left: 35px;
+    }
+    .icon .i1 {
+        left: 70px;
+    }
+    .icon .flower2 {
+        left: 105px;
+    }
+    .message h3 {
+        font-size: 22px;
+    }
+    .message .line {
+        margin-left: 60px;
+    }
+    .center button {
+    margin-left: 35%;
+    }
+    .services_contant .part1 {    
+        margin-right: 0;
+    }
+    .part1 .white_div .round {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .part1 .a .msg h3 {
+        text-align: start;
+    }
+    .part2 {
+       
+        margin-left:0;
+    }
+    .part2 .white_div .round {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .part2 .a .msg h3 {
+        text-align: start;
+    }                            
+    .part1 .white_div .round1 {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .part2 .white_div .round1 {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .review span {
+       
+        font-size: 20px;
+    }
+    .review .count {
+        grid-template-columns: 5fr 5fr;
+        grid-template-rows: 150px;
+    }
+    .review h1 {
+        font-size: 40px;
+    }
+    .count1 h2 {
+        font-size: 40;
+    }
+    .artist h2 {
+       
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .artist span {
+        font-size: 20px;
+    }
+    .artist .staff {
+        grid-template-columns: 5fr 5fr;
+    }
+    .package .plan {
+        grid-template-columns: 5fr 5fr;
+    }
+    .play{
+        display: none;
+    }
+    .appointment .appointment_form {
+        width: 98%;
+    }
+    .appointment_form table input {
+        width: 340px;
+    }
+    .appointment_form table select {
+        width: 690px;
+    }
+    textarea {
+        width: 690px;
+    }
+    .customers h1 {
+        font-size: 40px;
+    }
+    .customers .customers_contant {
+        grid-template-columns: 5fr 5fr;
+    }
+    .blog h1 {
+        font-size: 40px;
+    }
+    .say{
+        display: none;
+    }
+    .blog .blog_part {
+        grid-template-columns: 5fr 5fr;
+    }
+   
+}
+@media (max-width:600px){
+    .logo a{
+        font-size: 18px;
+    }
+    .nav ul li {
+        padding: 2px;
+    }
+    .nav ul li a {
+       
+        padding: 5px;
+        font-size: 15px;
+
+    }
+    .text{
+       
+        width: 95%;
+        padding-top: 150px;
+        padding-left: 50px;
+    }
+    .text .beauty h1{
+        font-size: 42px;
+    }
+    .text .beauty p{
+        font-size: 20px;
+    }
+   
+    .about .contant{
+        grid-template-columns: 1fr ;
+        
+    }
+    .categories .contant_categori .contant_part1,.contant_part2{
+        grid-template-columns: 1fr;
+    }
+    .categories h1 {
+        font-size: 30px;
+    }
+    .icon .flower1 {
+        left: 200px;
+    }
+    .icon .i1 {
+        left: 240px;
+    }
+    .icon .flower2 {
+        left: 280px;
+    }
+    .message .line {
+        margin-left: 240px;
+    }
+    .center p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .center h4 {
+        font-size: 29px;
+    }
+    .center button {
+        margin-left: 30%;
+    }
+    .services .services_contant{
+        grid-template-columns: 1fr ;
+    }
+   
+    .artist .staff {
+        grid-template-columns: 1fr ;
+    }
+    .gallery{
+        grid-template-columns: 1fr ;
+    }
+    .package .plan{
+        grid-template-columns: 1fr ;
+    }
+    .play{
+        display: block;
+    }
+    .plan hr{
+        margin-left: 210px;
+    }
+    .appointment .appointment_form {
+        width: 97%;
+    }
+    .appointment_form table{
+        width: 50%;
+       
+    }
+    .appointment_form table input {
+        width: 240px;
+    }
+    .appointment_form table select {
+        width: 500px;
+    }
+    textarea {
+        width: 500px;
+    }
+    .customers .customers_contant{
+        grid-template-columns: 1fr;
+    }
+    .contant .contant_pic img {
+       
+        width: 98%;
+    }
+    .customers {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .say{
+        display: block;
+    }
+    .blog .blog_part{
+        grid-template-columns: 1fr;
+    }
+    .text_part h3{
+       
+        text-align: center;
+    }
+    .text_part .pera{
+        text-align: center;
+    }
+    .footer_head .footer_part{
+        /* display: grid; */
+        grid-template-columns: 1fr;
+    }
+   
+} 
+@media (max-width:500px){
+    .header{
+        grid-template-columns: 1fr;
+    }
+    .logo{
+        display: none;
+    }
+    .nav ul {
+       
+        padding: 10px 8px;
+    }
+    .nav ul li a {
+       
+        font-size: 17px;
+    }
+    .text {
+        padding-left: 10px;
+    }
+    .icon .flower1 {
+        left: 160px;
+    }
+    .icon .i1 {
+        left: 195px;
+    }
+    .icon .flower2 {
+        left: 230px;
+    }
+  
+    .message .line{
+        margin-left: 185px;
+    }
+    .center h4 {
+        font-size: 24px;
+    }   
+    .center p {
+        padding-left: 2%;
+        padding-right: 2%;
+    } 
+    .center button {
+        margin-left: 25%;
+    }
+    .review h1 {
+        font-size: 35px;
+    }
+    .review .count{
+        grid-template-columns: 1fr;
+    }
+    .artist h2 {
+        font-size: 40px;
+    }
+    .plan hr {
+        margin-left: 160px;
+    }
+    .appointment .appointment_form {
+        width: 97%;
+    }
+   
+    .appointment_form table input {
+        width: 205px;
+    }
+    .appointment_form table select {
+        width: 425px;
+    }
+    textarea {
+        width: 425px;
+    }
+    .appointment_form h1 {
+        font-size: 35px;
+    }
+}
