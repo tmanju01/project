@@ -1,0 +1,288 @@
+@media (max-width:1200px){
+.header{
+    height: auto;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+
+.main{
+    padding: 70px 30px;
+  
+}
+.dance , .pricing, .statis-part{
+    height: auto;
+}
+.dance p, .pricing p{
+    margin-left: 150px;
+margin-right: 150px;
+}
+.dance-contant, .pricing-contant, .statis-contant{
+  height: auto;
+}
+.card{
+    height: auto;
+}
+.card-body p{
+    margin-left: 0;
+    margin-right: 0;
+   
+}
+.dance-part2 h1 {
+    font-size: 40px;
+}
+.dance-part2 p{
+    font-size: 25px;
+}
+.dance-part2 .btn{
+    font-size: 17px;
+}
+.herbert p{
+     margin-left: 200px;
+    margin-right: 200px;
+}
+.herbert h2{
+     font-weight: 600;
+    }
+.subscribe{
+    height: auto;
+}
+.subscribe p{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.subscribe input{
+    width: 325px;
+    }
+
+}
+
+@media (max-width:992px){
+    .navbar-brand{
+        margin-left: 20px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-size: 18px;
+    }
+    .serch .fa{
+        font-size: 20px;
+    }
+    .navbar-nav .nav-item{
+         text-align: center;
+    }
+    .text h1{
+        font-size: 70px;
+    }
+    .text p{
+        font-size: 25px;
+    }
+    .text button{
+        font-size: 18px;
+    }
+    .dance .card,.pricing .card{
+        margin-top: 20px;
+
+    }
+    .dance p, .pricing p , .statis-part p{
+        margin-left: 70px;
+    margin-right: 70px;
+    }
+    .dance-contant, .pricing-contant{
+      height: auto;
+    }
+    .card{
+        height: auto;
+    }
+    .card-body p{
+       
+        margin-left: 0;
+        margin-right: 0;
+        height: auto;
+    }
+    
+    .dance-part .dance-part2{
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .dance-part .dance-part2 h1{
+        font-size: 45px;
+    }
+    .dance-part .dance-part2 p{
+        font-size: 25px;
+    }
+    .herbert p{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .herbert h2{
+        font-size: 28px;
+        margin-top: 25px;
+    }
+    .subscribe p{
+         margin-left: 100px;
+        margin-right: 100px;
+        font-size: 25px;
+    }
+    .subscribe input{
+        width: 300px;
+        font-size: 16px;
+        }
+        .footer{
+            height: auto;
+        }
+        .footer .footer-part{
+            height: auto;
+        }
+    
+}
+
+@media (max-width:768px){
+    .navbar-brand{
+        margin-left:0;
+    }
+    .serch {
+        display: none;
+    }
+    .navbar-nav .nav-item .nav-link:hover{
+        color: #e8631c;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+    .main{
+       padding: 70px 10px;
+        
+    }
+    .text h1{
+        font-size: 60px;
+    }
+    .text p{
+        font-size: 22px;
+    }
+    .text button{
+        font-size: 18px;
+    }
+    .dance-part-3{
+          order:1;
+    }
+    .dance p, .pricing p{
+        margin-left: 0;
+    margin-right: 0;
+    }
+    .dance-contant, .pricing-contant{
+        height: auto;
+      }
+      .card{
+          height: auto;
+      }
+      .card-body p{
+          margin-left: 0;
+          margin-right: 0;
+          
+      }
+      .statis-part p{
+        margin-left: 10px;
+        margin-right:10px ;
+        font-size: 26px;
+      }
+      .statis-part1{
+        
+        height: auto;
+       
+      }
+      
+      .herbert p{
+       
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 26px;
+    }
+    .herbert h2{
+        font-size: 27px;
+        margin-top: 25px;
+    }
+    .subscribe p{
+        
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+    }
+    .subscribe input{
+        width: 250px;
+        font-size: 16px;
+       
+    }
+    .footer{
+        height: auto;
+    }
+    .footer .footer-part{
+        height: auto;
+    }
+     
+}
+@media (max-width:576px){
+    .dance, .pricing{
+        padding: 100px 20px;
+    }
+    .statis-part {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .statis-part p{
+         margin-left: 0;
+         margin-right: o;
+    }
+    .statis-part h1{
+        font-size: 45px;
+    } 
+    
+    .herbert p{
+        
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 24px;
+    }
+    .herbert h2{
+        font-size: 26px;
+        margin-top: 25px;
+    }  
+    .subscribe{
+        padding: 100px 40px;
+    } 
+    .subscribe p{
+        
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 22px;
+    }
+    .subscribe input{
+        width: 225px;
+        font-size: 16px;
+        
+    }
+   
+}
+@media (max-width:500px){
+    .dance, .pricing{
+        padding: 100px 0;
+    }
+    .herbert p{
+        
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 24px;
+    }
+    .herbert h2{
+        font-size: 26px;
+        margin-top: 25px;
+    }
+    .subscribe{
+        padding: 100px 10px;
+    } 
+    .subscribe input{
+        width: 200px;
+        font-size: 16px;
+        
+    }
+
+
+}
