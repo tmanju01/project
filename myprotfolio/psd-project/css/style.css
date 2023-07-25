@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* -----------typyographics----------- */
+
+h1{
+    font-size: 70px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Oswald";
+}
+h2{
+    font-size: 58px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Oswald";
+text-align: center;
+}
+h3{
+    
+font-size: 42px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+
+}
+p{
+   
+font-size: 28px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+
+}
+button{
+    font-size: 22px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Oswald";
+text-align: center;
+}
+/* -------------------typrgraphic end ---------------*/
+/* header section start */
+
+
+
+
+/*------------------ navbar section start ---------------------*/
+
+.header{
+    height: 100vh;
+    
+    background-image: url('/images/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(4\).png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+ .navbar .navbar-nav{
+    width: 100%;
+    
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Oswald";
+margin-right: 15px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #e8631c;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.serch .fa{
+    font-size: 25px;
+}
+
+/* ------------------------navbar section end------------------ */
+
+
+/*--------------------- bacground section start----------------- */
+
+.main{
+    height: auto;
+    padding: 70px 50px;
+    width: 50%;
+}
+.text{
+    padding-top: 60px;
+}
+.text h1{
+    
+    text-transform: none;
+    padding:  10px 0px 5px 0px;
+    font-size: 100px;
+     color: #ffffff;
+    font-family: "Oswald";
+}
+p{
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+font-size: 29px;
+}
+.text button{
+    font-size: 20px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Oswald";
+background-color: #e8631c;
+margin-top: 15px;
+padding: 10px 35px;
+
+}
+.text button:hover{
+    color: #e8631c;
+    background-color: white;
+}
+
+/*---------------------- background section end --------------------*/
+
+
+
+/* dance section parth start */
+.dance , .pricing , .statis-part {
+    height: 700px;
+    background-color: #e8631c;
+    text-align: center;
+    padding: 100px;
+}
+.dance p , .pricing p , .statis-part p{
+    
+margin-left: 200px;
+margin-right: 200px;
+font-size: 30px;
+text-align: center;
+}
+.dance-contant , .pricing-contant , .statis-contant{
+    height: 350px;
+    width: 70%;
+     margin-top: 50px;
+    
+}
+.dance h1{
+    font-weight: 600;
+}
+.dance p{
+    font-size: 29px;
+    margin-top: 15px;
+}
+
+.card{
+    height: 350px;
+    /* margin: 0 30px 0 30px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border-radius: 0;
+    /* border: none; */
+}
+.card img{
+    height: 210px;
+    width: 100%;
+    transition: 2s;
+}
+.card:hover{
+    transform: scale(0.9);
+    
+}
+
+.card-body{
+    background-color: #303030;
+
+}
+.card-body p , .pricing .card-body p{
+    height: 40px;
+    font-size: 18px;
+    margin-left: 0;
+    margin-right: 0;
+   
+}
+
+/* dance section parth end */
+
+
+/* <!------ pricing section start------------ --> */
+
+.pricing {
+background-color: #2f2f2f;
+}
+.pricing h1{
+    font-weight: 600;
+}
+.pricing p{
+    font-size: 29px;
+    margin-top: 15px;
+}
+ .pricing-contant .card{
+        justify-content: center;
+       background-color: #e8631c;
+   
+}
+.pricing .card .card-img-top{
+    height: 80px;
+    width: 80px;
+    margin:50px auto;
+    margin-bottom: 20px;
+    
+}
+.pricing-contant .card-body{
+     background-color: #e8631c;
+}
+.card-body p{
+    font-size: 18px;
+}
+.card-body .btn{
+    padding: 8px 80px;
+    background-color: #303030;
+    
+    color: white;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+}
+.card-body .btn:hover{
+    background-color: white;
+    color: #303030;
+}
+
+/* <!-- ------------pricing section end---------- --> */
+
+
+/* !-- dance part section start --> */
+
+.dance-part{
+    height: auto;
+    }
+.dance-part1{
+    height: 670px;
+
+}
+
+.dance-part1 img{
+    height: 100%;
+    width: 100%;
+    
+}
+.dance-part .dance-part2{
+    height: 670px;
+     background-color: #e8631c;
+      padding-top: 150px;
+      padding-left: 60px;
+      padding-right: 50px;
+}
+.dance-part .dance-part2 h1{
+    font-size: 55px;
+    font-weight: 900;
+
+}
+
+ .dance-part2 p{
+    font-size: 29px;
+    padding-right: 60px;
+    margin-top: 10px;
+}
+.dance-part2 .btn{
+     text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+
+    padding: 10px 60px;
+    background-color: #303030;
+     color: white;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+}
+
+.dance-part2 .btn:hover{
+    background-color: white;
+    color: #303030;
+}
+
+/* !-- dance part section end --> */
+
+
+
+/* <!-- your statis section start --> */
+.statis-part{
+     padding: 100px;
+     background-color: #303030;
+}
+.statis-part h1{
+font-weight: 900;
+}
+.statis-part p{
+    font-size: 29px;
+    
+}
+
+.statis-part1{
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+
+    
+}
+.statis-part1 h1{
+    font-weight: 600;
+}
+.statis-part1 h1 span{
+    font-size: 35px;
+}
+.statis-part1 h3{
+    font-weight: normal;
+}
+
+/* <!-- your statis section end --> */
+
+
+/* <!-- herbert section start --> */
+.herbert{
+    height: 670px;
+   background:linear-gradient(35deg,#d3260386 20%,#d3260386,#d3260386),url('/images/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(12\).png');
+   background-size: 100% 100%;
+   padding-top: 230px;
+   text-align: center;
+}
+
+.herbert p{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.herbert h2{
+    margin-top: 40px;
+    font-weight: 900;
+    
+}
+
+
+
+/* <!-- hearbert section end --> */
+
+/* <!-- subscribe section start --> */
+.subscribe{
+    height: 500px;
+    background-color: #e8631c;
+    text-align: center;
+    padding: 130px;
+}
+.subscribe h1{
+    font-weight: 700;
+}
+
+.subscribe p{
+   
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.subscribe input{
+    width: 350px;
+    padding: 9px 25px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+.subscribe .btn{
+    border-radius: 0;
+    background-color: #303030;
+    color: #ffffff;
+    padding: 0 30px;
+    font-weight: 500;
+}
+.subscribe .btn:hover{
+    
+    color: white;
+}
+
+/* <!-- subscribe section end --> */
+
+
+/* <!-- footer section start --> */
+
+.footer{
+    height: 400px;
+    background-color: #303030;
+    padding-top: 50px;
+   
+    
+}
+.footer .footer-part{
+    height: 300px;
+  
+   
+
+}
+.footerpart1{
+    height: 300px;
+    padding-top: 30px;
+}
+.footerpart1 p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.footerpart1 p  a{
+  background-color: white;
+  color: #e8631c;
+  padding: 10px 13px ;
+  border-radius: 50%;
+  font-size: 14px;
+}
+.footerpart1 p  a:hover{
+    background-color: #e8631c;
+    color: white;
+}
+.footerpart1 ul{
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+}
+.footerpart1 ul li{
+    font-size: 17px;
+    color: #ffffff;
+    padding-top: 4px;
+}
+/* <!-- footer section end --> */
